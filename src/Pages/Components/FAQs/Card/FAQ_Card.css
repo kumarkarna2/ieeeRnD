@@ -1,0 +1,14 @@
+.faq-card{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    padding: 2%;
+    text-align: justify;
+    border-radius: 2rem;
+    height: 70%;
+    background: #000;
+
+}
+.card-question{
+    display: flex;
+}

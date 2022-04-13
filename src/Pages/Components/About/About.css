@@ -1,0 +1,10 @@
+.about-us-cm{
+    margin-top: 7rem;
+    display: flex;
+    width: 50vw;
+}
+.about-website{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

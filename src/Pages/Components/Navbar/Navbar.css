@@ -1,0 +1,143 @@
+.navbar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.header {
+    position: sticky;
+    background: transparent;
+    z-index: 1000;
+    width: 100%;
+}
+.header.active {
+    background: rgb(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4.7rem;
+    max-width: 100vw;
+}
+.murious-logo-header{
+    display: flex;
+}
+.nav-logo{
+    /* padding-bottom: .5rem; */
+    width: 4rem;
+    color: #edf0f1;
+    cursor: pointer;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    /* margin-right: 1vw; */
+}
+.nav-links{
+    cursor: pointer;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 0.5vh 0.5vw;
+    background-color: transparent;
+    border-radius: 15px ;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+.contact-button{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #685D9E;
+    font-size: 1.2rem;
+    color: #edf0f1;
+    padding: 0.9vh 1vw;
+    transition: 0.5s;
+}
+.contact-button:hover{
+    background-color: #b9a8cd;
+    transition: 0.5s;
+}
+.nav-links:hover{
+    background-color: #685D9E;
+    border-radius: 15px;
+    transition: all 0.5;
+}
+.nav-item{
+    line-height: 40px;
+    margin-right: 1vw;
+}
+.nav-item .active{
+    color: #b9a8cd;
+    border: 1px solid #685D9E;
+}
+.nav-icon{
+    display: none;
+}
+@media screen and (max-width: 1120px) {
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px solid #685D9E;
+        position: absolute;
+        top: 80px;
+        left: -110%;
+        opacity: 0;
+    }
+    .nav-menu.active{
+        background: #11051d;
+        left: 0;
+        height: 100vh;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    .nav-item.active{
+        color: #b9a8cd;
+        border: none;
+    }
+    .nav-item.contact{
+        padding: 1rem;
+    }
+    .nav-links{
+        padding: 1rem;
+        width: 100%;
+        display: table;
+    }
+    .nav-icon{
+        display: flex;
+        color: #edf0f1;
+        position: absolute;
+        top: 2vh;
+        right: 0;
+        cursor: pointer;
+        transform: translate(-100%,60%);
+        font-size: 1.5rem;
+    }
+    .contact-button{
+        margin-bottom: 1vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-logo{
+        width: 10rem;
+    }
+}

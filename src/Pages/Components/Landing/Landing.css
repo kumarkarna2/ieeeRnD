@@ -1,0 +1,22 @@
+/* *,body{
+    background-color: #000;
+} */
+
+.landing-page{
+    margin-top: .7rem;
+    width:100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(71,180,180); */
+    background: radial-gradient(circle, rgba(71,180,180,1) 0%, rgba(17,100,102,1) 51%, rgba(4,32,38,1) 100%);
+}
+.logo-ieee img{
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
