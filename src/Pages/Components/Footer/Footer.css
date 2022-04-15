@@ -38,15 +38,53 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     align-items: center;
     padding: 1rem 0.5rem;
+   
 }
-.Sociallinks{
+
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-15px);
+
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+.insta{
     color: rgb(35, 33, 33);
     text-decoration: none;
     padding: 0 0.7vw;
-    /* color: #edf0f1; */
+margin-right: 2rem;
     font-size: 2rem;
+    animation: float 5s ease-in-out infinite;
 }
-.Sociallinks :hover{
+.insta :hover{
+    color: rgb(223, 223, 223);
+}
+.tel {
+    color: rgb(35, 33, 33);
+    text-decoration: none;
+    padding: 0 0.7vw;
+margin:0rem 2rem 0rem 2rem;
+    font-size: 2rem;animation: float 4s ease-in-out reverse infinite;
+   
+}
+
+.tel :hover {
+    color: rgb(223, 223, 223);
+}.google {
+    color: rgb(35, 33, 33);
+    text-decoration: none;
+    padding: 0 0.7vw;
+margin-left: 2rem;
+    
+    font-size: 2rem;animation: float 5s ease-in-out infinite;
+}
+
+.google :hover {
     color: rgb(223, 223, 223);
 }
 .Footer-Line_l2{
