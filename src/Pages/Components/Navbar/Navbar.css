@@ -60,20 +60,22 @@ background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 10
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    background-color: #685D9E;
+    background-color: #116466;
     font-size: 1.2rem;
     color: #edf0f1;
+    text-decoration: none;
     padding: 0.9vh 1vw;
     transition: 0.5s;
 }
-.contact-button:hover{
+.contact-button:hover{  
     background-color: #b9a8cd;
     transition: 0.5s;
 }
 .nav-links:hover{
-    background-color: #685D9E;
+    background-color: #116466;
     border-radius: 15px;
     transition: all 0.5;
+    color: #d1e8e2;
 }
 .nav-item{
     line-height: 40px;

@@ -128,20 +128,6 @@ export default function NaviBar() {
                     Contact
                   </LNK>
                 </li>
-                <li className="nav-item contact">
-                  <LNK
-                    to="/"
-                    className="contact-button"
-                    activeClassName="active"
-                    onClick={handleClick}
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={1000}
-                  >
-                    Registration
-                  </LNK>
-                </li>
               </ul>
               <div className="nav-icon" onClick={handleClick}>
                 {click ? <RiCloseLine /> : <RiMenu3Line />}
