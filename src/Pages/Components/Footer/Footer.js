@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import logo from "./Logo-murious.svg";
-import TMP_Logo from "./TMP_Logo.svg";
+import logo from "./R&D Logo Black.png";
+import TMP_Logo from "./wiecolored.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { FaGoogle } from "react-icons/fa";
@@ -34,7 +34,6 @@ function Footer() {
                                     to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
                                     className="insta"
                                 >
-                                    {/* <FontAwesomeIcon icon="fab fa-instagram" /> */}
                                     <BsInstagram />
                                 </Link>
                                 <a href="tel:" className="tel">
@@ -48,14 +47,14 @@ function Footer() {
                     </div>
 
                     <div className="Footer-Logo">
-                        <div className="Footer-Logo_Murious">
+                        <div className="Footer-Logo_RD">
                             <img
                                 className="Murious-Logo"
                                 alt="Murious"
                                 src={logo}
                             />
                         </div>
-                        <div className="Footer-Logo_TMP">
+                        <div className="Footer-Logo_wie">
                             <img
                                 className="TMP_logo"
                                 alt="TMP"
