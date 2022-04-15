@@ -23,6 +23,14 @@ export default function Schedule() {
             event2="9:00AM - 10:00AM - Inaguration Ceremony"
             event3="9:00AM - 10:00AM - Inaguration Ceremony"
           />
+          <ScheduleCard
+            date="27"
+            month="April"
+            day="Day-3"
+            event1="9:00AM - 10:00AM - Inaguration Ceremony"
+            event2="9:00AM - 10:00AM - Inaguration Ceremony"
+            event3="9:00AM - 10:00AM - Inaguration Ceremony"
+          />
       </div>
     </div>
   );

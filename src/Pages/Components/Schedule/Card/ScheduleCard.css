@@ -4,6 +4,12 @@
     flex-direction: column;
     justify-content: center;
   }
+  .line-schedule{
+    display: flex;
+    background: white;
+    height: 2px;
+    width: 90%;
+  }
   .events-schedule-name {
     display: flex;
     flex-direction: column;

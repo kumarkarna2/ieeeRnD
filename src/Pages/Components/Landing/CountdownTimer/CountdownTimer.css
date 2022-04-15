@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 44rem;
+    border-radius: 10px;
     height: 7rem;
     box-sizing: border-box;
     margin: auto;

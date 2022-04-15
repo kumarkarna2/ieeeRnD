@@ -17,9 +17,9 @@ export default function Home() {
         <Landing />
         <About />
         <Schedule/>
-        <FAQ />
         <Events />
         {/* <Team/> */}
+        <FAQ />
         <Footer/>
       </div>
     </div>
