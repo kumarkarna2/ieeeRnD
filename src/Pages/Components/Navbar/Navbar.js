@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-import CM from "./Images/CM.svg";
+import IEEE from "./Images/IEEE-JUIT(white).png";
 import "./Navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -39,7 +39,7 @@ export default function NaviBar() {
                 activeClassName="active"
                 to="/"
               >
-                <img src={CM} className="nav-logo" alt="Murious" />
+                <img src={IEEE} className="nav-logo" alt="Murious" />
               </Link>
             </div>
             <div className="header-links">

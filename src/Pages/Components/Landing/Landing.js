@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
-import Logo from "./Images/logo.png";
+import Logo from "./Images/R&D Logo White 3d.png";
+import CountdownTimer from "./CountdownTimer/CountdownTimer";
 
 export default function Landing() {
   return (
@@ -8,6 +9,7 @@ export default function Landing() {
       <div className="logo-ieee">
         <img src={Logo} alt="Logo" />
       </div>
+      <CountdownTimer/>
     </div>
   );
 }
