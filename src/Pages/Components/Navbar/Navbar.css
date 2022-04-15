@@ -1,21 +1,22 @@
-.navbar{
+.navibar{
     position: fixed;
     z-index: 2;
     top: 0;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     height: 5rem;
-    padding: 0;
     font-size: 1.2rem;
 }
 .header {
     position: sticky;
     background: transparent;
-    z-index: 1000;
+    z-index: 100;
     width: 100%;
+    background: rgb(17,100,102);
+background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
 }
 .header.active {
     background: rgb(0, 0, 0, 0.6);
@@ -33,7 +34,6 @@
     display: flex;
 }
 .nav-logo{
-    /* padding-bottom: .5rem; */
     width: 4rem;
     color: #edf0f1;
     cursor: pointer;
@@ -43,7 +43,6 @@
     list-style: none;
     text-align: center;
     margin: 0;
-    /* margin-right: 1vw; */
 }
 .nav-links{
     cursor: pointer;

@@ -1,0 +1,18 @@
+.events-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.events-heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.events-cards-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}

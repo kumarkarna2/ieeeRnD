@@ -1,0 +1,26 @@
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.faq-heading{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.faq-cards-main-page{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    justify-content: space-around;
+}
+@media only screen and (max-width:600px) {
+    .faq-heading{
+        font-size: 1.7rem;
+    }
+}

@@ -1,41 +1,17 @@
 import React from "react";
 import "./EventsCard.css";
+import { Link } from "react-router-dom";
 
-export default function EventsCard() {
+export default function EventsCard(parse) {
   return (
     <div>
       <div className="events-container">
         <div className="box">
           <span className="s-cards"></span>
           <div className="content">
-            <h2>Card one</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-        <div class="box">
-          <span className="s-cards"></span>
-          <div class="content">
-            <h2>Card two</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-        <div class="box">
-          <span></span>
-          <div class="content">
-            <h2>Card Three</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Read More</a>
+            <h2 className="event-card-title">{parse.title}</h2>
+            <p className="event-card-desc">{parse.desc}</p>
+            <Link className="event-card-link" to="#">Read More</Link>
           </div>
         </div>
       </div>

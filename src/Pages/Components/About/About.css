@@ -1,10 +1,43 @@
-.about-us-cm{
-    margin-top: 7rem;
-    display: flex;
-    width: 50vw;
-}
 .about-website{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.about-website :hover{
+    background: #faeee4;
+    color: #0e4a63;
+}
+.about-us-box{
+    background: #d1e8e2;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 66.5vw;
+    border-radius: 0.7rem;
+    padding: 0.5vw 2vw 2vw 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.about-text{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width:600px) {
+    .about-us-box{
+        width: 85vw;
+        padding: 2vw 4vw 4vw 4vw;
+    }
+    .about-us-heading{
+        font-size: 1.7rem;
+    }
+    .about-text{
+        font-size: 0.9rem;
+    }
 }

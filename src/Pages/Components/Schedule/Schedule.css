@@ -1,0 +1,21 @@
+.schedule-section{
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.schedule-section-heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.schedule-cards-section{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+@media only screen and (max-width:600px) {
+    .schedule-section-heading{
+        font-size: 1.7rem;
+    }
+}

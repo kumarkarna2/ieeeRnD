@@ -1,0 +1,203 @@
+.event-schedule {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .events-schedule-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .schedule-heading-titlebox{
+    display: flex;
+    background: rgba( 217, 176, 140, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 33rem;
+    height: 4rem;
+    border-radius: 20px;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+  }
+  .date-time {
+    border-radius: 20px;
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    width: 9rem;
+    justify-content: center;
+  }
+  .schedule-heading-m{
+    display: flex;
+    font-size: 2.2rem;
+    width: 9rem;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .more-options-m{
+    display: flex;
+    width: 9rem;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  .schedule-1,
+  .schedule-2 {
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+   
+  .schedule-wrapper-1 .list,
+  .schedule-wrapper-2 .list {
+    display: none;
+  }
+   
+  .schedule-wrapper-1-active .list,
+  .schedule-wrapper-2-active .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(80, 80, 80, 0.5);
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 33rem;
+  }
+   
+  .schedule-wrapper-1-active .list-item,
+  .schedule-wrapper-2-active .list-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+   
+  .schedule-wrapper-1-active hr,
+  .schedule-wrapper-2-active hr {
+   width: 90%;
+   height: 0px;
+   background: white;
+   border: 1px solid white;
+  }
+   
+  .schedule-wrapper-1-active .schedule-heading-titlebox ,
+  .schedule-wrapper-2-active .schedule-heading-titlebox {
+    margin-bottom: 0.5rem;
+  }
+   
+  .schedule-wrapper-1-active .more-option-show,
+  .schedule-wrapper-2-active .more-option-show {
+    transform: rotate(180deg);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .schedule-wrapper-1 .more-option-show,
+  .schedule-wrapper-2 .more-option-show{
+    cursor: pointer;
+    font-weight: bold;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  .circle1{
+    border-radius: 50%;
+  }
+  .circle1 :nth-child(2){
+    width: 16%;
+    position: absolute;
+    margin: 0;
+    left: 80%;
+    top: 533%;
+    opacity: 0.6;
+    transform: rotate(49.38deg);
+    animation: spin 10s linear infinite;
+  }
+  .circle1 :nth-child(1){
+    position: absolute;
+    margin: 0;
+    left: -1%;
+    top: 475%;
+    opacity: 0.6;
+    transform: rotate(49.38deg);
+    animation: spin 10s linear infinite;
+  }
+    
+    .circle2{
+    position: absolute;
+    margin: 0;
+    right: 1%;
+    bottom: 0%;
+    opacity: 0.6;
+    }
+  /* media query */  
+  @media screen and (max-width: 1024px){
+    .schedule-1, .schedule-2 {
+      width: 100vw;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .event-schedule{
+      margin-top: 1rem;
+    }
+    .schedule-1,
+    .schedule-2 {
+      width: 25vw;
+    }
+    .circle1{
+      display: none;
+    }
+    .circle2{
+      display: none;
+    }
+    .schedule-heading-titlebox{
+      width: 23rem;
+      height: 3rem;
+    }
+    .schedule-wrapper-1-active .list, .schedule-wrapper-2-active .list {
+      width: 23rem;
+    }
+    .date-time{
+      font-size: 0.8rem;
+      width: 4rem;
+    }
+    .schedule-heading-m{
+      font-size: 1rem;
+      width: 4rem;
+    }
+    .more-options-m{
+      font-size: 1rem;
+      width: 4rem;
+    }
+    .schedule-wrapper-1-active .list-item, .schedule-wrapper-2-active .list-item {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+  @media screen and (max-width: 425px){
+    .event-schedule{
+      margin-top: 3rem;
+    }
+    .schedule-heading-titlebox {
+      width: 18rem;
+      height: 2.5rem;
+    }
+    .schedule-wrapper-1-active .list, .schedule-wrapper-2-active .list {
+      width: 18rem;
+      font-size: 0.7rem;
+    }
+  }
