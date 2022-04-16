@@ -1,54 +1,121 @@
+@import url("http://fonts.cdnfonts.com/css/tele-marines");
 .about-website {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 .about-us-box {
-  background: #d1e8e2;
-  margin-top: 7rem;
-  display: flex;
-  flex-direction: column;
-  width: 66.5vw;
-  border-radius: 0.7rem;
-  padding: 0.5vw 2vw 2vw 2vw;
-  align-items: center;
-  justify-content: center;
+    background: #ade6d6;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 66.5vw;
+    border-radius: 0.7rem;
+    padding: 0.5vw 2vw 2vw 2vw;
+    align-items: center;
+    justify-content: center;
 }
 
-.about-us-box:hover{
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  background-color:rgba(250, 238, 228, 0.6);
-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  color: #091318;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+.about-us-box:hover {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background-color: rgba(250, 238, 228, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #091318;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .about-us-heading {
-  font-size: 3rem;
-  font-weight: 500;
-  padding: 0 1rem;
-  border-radius: 5px;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    border-radius: 5px;
+    font-family: "Tele-Marines", sans-serif;
+    font-family: "Tele-Marines Condensed", sans-serif;
+    font-family: "Tele-Marines Shadow", sans-serif;
+    font-family: "Tele-Marines Condensed Italic", sans-serif;
+    font-family: "Tele-Marines Italic", sans-serif;
+    font-family: "Tele-Marines Bold", sans-serif;
+    font-family: "Tele-Marines Condensed Bold", sans-serif;
+    font-family: "Tele-Marines Bold Italic", sans-serif;
+    font-family: "Tele-Marines Cond Bold Italic", sans-serif;
 }
 
 .about-text {
     padding: 0 0.5rem;
     border-radius: 5px;
-  font-size: 1.1rem;
-  text-align: justify;
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
-  .about-us-box {
-    width: 85vw;
-    padding: 2vw 4vw 4vw 4vw;
-  }
-  .about-us-heading {
-    font-size: 1.7rem;
-  }
-  .about-text {
-    font-size: 0.9rem;
-  }
+    .about-us-box {
+        width: 85vw;
+        padding: 2vw 4vw 4vw 4vw;
+    }
+    .about-us-heading {
+        font-size: 1.7rem;
+    }
+    .about-text {
+        font-size: 0.9rem;
+    }
+}
+@import url("http://fonts.cdnfonts.com/css/tele-marines");
+.about-website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.about-us-box {
+    background: #ade6d6;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 66.5vw;
+    border-radius: 0.7rem;
+    padding: 0.5vw 2vw 2vw 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-box:hover {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background-color: rgba(250, 238, 228, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #091318;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.about-us-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    border-radius: 5px;
+    font-family: "Tele-Marines Condensed", sans-serif;
+   
+}
+
+.about-text {
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-us-box {
+        width: 85vw;
+        padding: 2vw 4vw 4vw 4vw;
+    }
+    .about-us-heading {
+        font-size: 1.7rem;
+    }
+    .about-text {
+        font-size: 0.9rem;
+    }
 }

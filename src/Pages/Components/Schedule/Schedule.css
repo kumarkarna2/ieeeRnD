@@ -6,6 +6,8 @@
     justify-content: center;
 }
 .schedule-section-heading{
+    font-family: "Tele-Marines Condensed",
+    sans-serif;
     font-size: 3rem;
     font-weight: 500;
 }

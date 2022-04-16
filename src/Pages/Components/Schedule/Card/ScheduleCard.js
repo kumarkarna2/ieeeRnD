@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import "./ScheduleCard.css";
 
+
 export default function ScheduleCard(parse) {
   const [isOpen1, setIsOpen1] = useState(false);
 
