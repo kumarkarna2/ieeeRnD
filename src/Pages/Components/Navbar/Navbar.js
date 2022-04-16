@@ -46,79 +46,77 @@ export default function NaviBar() {
               <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item">
                   <LNK
-                    to="about"
+                    to="about-website"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
                     spy={true}
                     smooth={true}
                     offset={-60}
-                    duration={1000}
+                    duration={100}
                   >
                     About
                   </LNK>
                 </li>
                 <li className="nav-item">
                   <LNK
-                    to="schedule"
+                    to="schedule-section-heading"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
                     spy={true}
                     smooth={true}
-                    offset={-130}
-                    duration={1000}
+                    offset={-70}
+                    duration={100}
                   >
                     Schedule
                   </LNK>
                 </li>
                 <li className="nav-item">
                   <LNK
-                    to="events"
+                    to="events-section"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
                     spy={true}
                     smooth={true}
                     offset={-80}
-                    duration={1000}
+                    duration={100}
                   >
                     Events
                   </LNK>
                 </li>
                 <li className="nav-item">
-                  <Link
-                  onClick={() => scroll.scrollToTop()}
-                  to="/sponsors"
-                  className="nav-links"
-                  activeClassName="active"
-                    // onClick={handleClick}
+                  <LNK
+                    to="sponsors-murious"
+                    className="nav-links"
+                    activeClassName="active"
+                    onClick={handleClick}
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={1000}
                   >
                     Sponsors
-                  </Link>
+                  </LNK>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    to="/team"
+                  <LNK
+                    to="team-murious"
                     className="nav-links"
                     activeClassName="active"
-                    // onClick={handleClick}
+                    onClick={handleClick}
                     spy={true}
                     smooth={true}
-                    onClick={() => scroll.scrollToTop()}
                     offset={50}
                     duration={1000}
                   >
                     Team
-                  </Link>
+                  </LNK>
                 </li>
-                <li className="nav-item contact">
+                <li className="/contact">
                   <Link
-                    to="/contact"
+                    to="contact-form-murious"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
