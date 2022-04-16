@@ -98,7 +98,7 @@ export default function NaviBar() {
                                 </li>
                                 <li className="nav-item">
                                     <LNK
-                                        to="sponsors-murious"
+                                        to="sponsors-IEEE"
                                         className="nav-links"
                                         activeClassName="active"
                                         onClick={handleClick}
@@ -112,7 +112,7 @@ export default function NaviBar() {
                                 </li>
                                 <li className="nav-item">
                                     <LNK
-                                        to="team-murious"
+                                        to="team-IEEE"
                                         className="nav-links"
                                         activeClassName="active"
                                         onClick={handleClick}
@@ -127,7 +127,7 @@ export default function NaviBar() {
                                 <li className="nav-item">
                                     <LNK
                                         to="contact-us"
-                                        className="nav-links"
+                                        className="contact-button"
                                         activeClassName="active"
                                         onClick={handleClick}
                                         spy={true}
