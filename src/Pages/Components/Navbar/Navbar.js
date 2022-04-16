@@ -45,7 +45,7 @@ export default function NaviBar() {
                                     src={IEEE}
                                     className="nav-logo"
                                     alt="IEEE"
-                                />
+                                    />
                             </Link>
                         </div>
                         <div className="header-links">
@@ -53,7 +53,7 @@ export default function NaviBar() {
                                 className={
                                     click ? "nav-menu active" : "nav-menu"
                                 }
-                            >
+                                >
                                 <li className="nav-item">
                                     <LNK
                                         to="about-website"
@@ -78,7 +78,7 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={-70}
                                         duration={100}
-                                    >
+                                        >
                                         Schedule
                                     </LNK>
                                 </li>
@@ -92,51 +92,54 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={-80}
                                         duration={100}
-                                    >
+                                        >
                                         Events
                                     </LNK>
                                 </li>
                                 <li className="nav-item">
-                                    <LNK
-                                        to="sponsors-IEEE"
+                                    <Link
+                                        to="/sponsors"
                                         className="nav-links"
                                         activeClassName="active"
-                                        onClick={handleClick}
+                                        // onClick={handleClick}
+                                        onClick={() => scroll.scrollToTop()}
                                         spy={true}
                                         smooth={true}
                                         offset={50}
                                         duration={100}
-                                    >
+                                        >
                                         Sponsors
-                                    </LNK>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <LNK
-                                        to="team-IEEE"
+                                    <Link
+                                        to="/team"
                                         className="nav-links"
                                         activeClassName="active"
-                                        onClick={handleClick}
+                                        // onClick={handleClick}
+                                        onClick={() => scroll.scrollToTop()}
                                         spy={true}
                                         smooth={true}
                                         offset={50}
                                         duration={100}
-                                    >
+                                        >
                                         Team
-                                    </LNK>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <LNK
-                                        to="contact-us"
+                                    <Link
+                                        to="/contact"
                                         className="contact-button"
                                         activeClassName="active"
-                                        onClick={handleClick}
+                                        onClick={() => scroll.scrollToTop()}
+                                        // onClick={handleClick}
                                         spy={true}
                                         smooth={true}
                                         offset={50}
                                         duration={100}
                                     >
                                         Contact US
-                                    </LNK>
+                                    </Link>
                                 </li>
                             </ul>
                             <div className="nav-icon" onClick={handleClick}>
