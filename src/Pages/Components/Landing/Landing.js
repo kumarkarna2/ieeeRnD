@@ -9,21 +9,23 @@ export default function Landing() {
       <div className="logo-ieee">
         <img src={Logo} alt="Logo" />
       </div>
-      <CountdownTimer />
-      <div class="area" >
-      <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-      </ul>
+      <div className="c-timer">
+        <CountdownTimer />
       </div>
-  </div >
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
   );
 }

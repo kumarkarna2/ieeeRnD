@@ -8,6 +8,11 @@
     flex-direction: column;
     background: radial-gradient(circle, rgba(71,180,180,1) 0%, rgba(17,100,102,1) 51%, rgba(4,32,38,1) 100%);
 }
+.c-timer{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+
+}
 .logo-ieee img{
     margin-top: 5rem;
     width: 20%;
@@ -60,6 +65,7 @@ body{
 }
 
 .circles{
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -70,7 +76,7 @@ body{
 
 .circles li{
     position: absolute;
-    display: block;
+    display: flex;
     list-style: none;
     width: 20px;
     height: 20px;
