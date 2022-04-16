@@ -17,7 +17,7 @@
   }
   .schedule-heading-titlebox{
     display: flex;
-    background: rgba( 217, 176, 140, 0.5 );
+    background: rgba(112, 175, 205, 0.6);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 5px );
 -webkit-backdrop-filter: blur( 5px );

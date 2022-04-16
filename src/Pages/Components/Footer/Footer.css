@@ -69,7 +69,7 @@ margin-right: 2rem;
     text-decoration: none;
     padding: 0 0.7vw;
 margin:0rem 2rem 0rem 2rem;
-    font-size: 2rem;animation: float 4s ease-in-out reverse infinite;
+    font-size: 2rem;animation: float 3s ease-in-out reverse infinite;
    
 }
 
@@ -81,7 +81,7 @@ margin:0rem 2rem 0rem 2rem;
     padding: 0 0.7vw;
 margin-left: 2rem;
     
-    font-size: 2rem;animation: float 5s ease-in-out infinite;
+    font-size: 2rem;animation: float 4s ease-in-out infinite;
 }
 
 .google :hover {

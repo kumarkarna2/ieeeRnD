@@ -11,18 +11,18 @@ export default function Events() {
           title="Event-1"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <EventsCard
-          title="Event-1"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                />
+                <EventsCard
+                    title="Event-1"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <EventsCard
-          title="Event-1"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                />
+                <EventsCard
+                    title="Event-1"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-      </div>
-    </div>
-  );
+                />
+            </div>
+        </div>
+    );
 }
