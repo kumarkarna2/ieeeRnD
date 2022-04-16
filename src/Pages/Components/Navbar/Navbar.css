@@ -82,8 +82,8 @@ background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 10
     margin-right: 1vw;
 }
 .nav-item .active{
-    color: #b9a8cd;
-    border: 1px solid #685D9E;
+    color: #1ef4e5;
+    border: 1px solid #5ff0d1;
 }
 .nav-icon{
     display: none;

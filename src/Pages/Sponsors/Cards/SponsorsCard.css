@@ -1,4 +1,33 @@
 .sponsors-card {
+  gap: 1rem;
   display: flex;
-  
+  margin-top: 3rem;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-direction: column;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.sponsors-image img {
+  width: 14rem;
+}
+.sponsor-name {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* width: 128%; */
+  text-align: center;
+  color: rgb(212, 212, 212);
 }

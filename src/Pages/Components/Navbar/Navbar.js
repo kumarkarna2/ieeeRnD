@@ -60,13 +60,13 @@ export default function NaviBar() {
                 </li>
                 <li className="nav-item">
                   <LNK
-                    to="event-schedule-murious"
+                    to="schedule"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
                     spy={true}
                     smooth={true}
-                    offset={-50}
+                    offset={-130}
                     duration={1000}
                   >
                     Schedule
@@ -74,49 +74,51 @@ export default function NaviBar() {
                 </li>
                 <li className="nav-item">
                   <LNK
-                    to="events-murious"
+                    to="events"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
                     spy={true}
                     smooth={true}
-                    offset={80}
+                    offset={-80}
                     duration={1000}
                   >
                     Events
                   </LNK>
                 </li>
                 <li className="nav-item">
-                  <LNK
-                    to="sponsors-murious"
-                    className="nav-links"
-                    activeClassName="active"
-                    onClick={handleClick}
+                  <Link
+                  onClick={() => scroll.scrollToTop()}
+                  to="/sponsors"
+                  className="nav-links"
+                  activeClassName="active"
+                    // onClick={handleClick}
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={1000}
                   >
                     Sponsors
-                  </LNK>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <LNK
-                    to="team-murious"
+                  <Link
+                    to="/team"
                     className="nav-links"
                     activeClassName="active"
-                    onClick={handleClick}
+                    // onClick={handleClick}
                     spy={true}
                     smooth={true}
+                    onClick={() => scroll.scrollToTop()}
                     offset={50}
                     duration={1000}
                   >
                     Team
-                  </LNK>
+                  </Link>
                 </li>
                 <li className="nav-item contact">
-                  <LNK
-                    to="contact-form-murious"
+                  <Link
+                    to="/contact"
                     className="nav-links"
                     activeClassName="active"
                     onClick={handleClick}
@@ -126,7 +128,7 @@ export default function NaviBar() {
                     duration={1000}
                   >
                     Contact
-                  </LNK>
+                  </Link>
                 </li>
               </ul>
               <div className="nav-icon" onClick={handleClick}>

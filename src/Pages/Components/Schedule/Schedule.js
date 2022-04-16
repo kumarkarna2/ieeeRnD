@@ -4,7 +4,7 @@ import "./Schedule.css";
 
 export default function Schedule() {
   return (
-    <div className="schedule-section">
+    <div className="schedule-section" id="schedule">
       <div className="schedule-section-heading">Schedule</div>
       <div className="schedule-cards-section">
           <ScheduleCard

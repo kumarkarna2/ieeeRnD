@@ -1,0 +1,57 @@
+.contact-us-section{
+    display: flex;
+    height: 100%;
+    background: rgb(6, 23, 27);
+    background: linear-gradient(
+      90deg,
+      rgba(6, 23, 27, 1) 0%,
+      rgba(56, 168, 171, 1) 39%,
+      rgba(51, 182, 190, 1) 67%,
+      rgba(6, 23, 27, 1) 100%
+    );
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:center; */
+}
+.contact-us-heading{
+    color: white;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    font-size: 3rem;
+}
+.contact-form :nth-child(6){
+    justify-content: center;
+}
+.contact-form{
+    background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 1rem;
+margin-bottom: 3rem;
+    /* align-items: center; */
+    /* gap: 1rem; */
+    display: flex;
+    flex-direction: column;
+}
+.submit-b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fc-title{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.input-boxes{
+    width: 30vw;
+    margin-bottom: 1rem;
+}
+.submit-button-cf{
+    margin-bottom: 2rem;
+    width: 10rem;
+}

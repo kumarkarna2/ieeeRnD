@@ -4,7 +4,7 @@ import EventsCard from "./Card/EventsCard";
 
 export default function Events() {
   return (
-    <div className="events-section">
+    <div className="events-section" id="events">
       <div className="events-heading">Events</div>
       <div className="events-cards-section">
         <EventsCard

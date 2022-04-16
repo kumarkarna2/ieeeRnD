@@ -10,29 +10,28 @@
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
   color: #0e4a63;
 }
-.about-us-heading {
+.about-heading {
   font-size: 3rem;
   font-weight: 500;
   padding: 0 1rem;
   border-radius: 5px;
 }
 .about-us-box {
-  background: #d1e8e2;
   margin-top: 7rem;
   display: flex;
-  flex-direction: column;
+  background: #d1e8e2;
   width: 66.5vw;
+  flex-direction: column;
   border-radius: 0.7rem;
   padding: 0.5vw 2vw 2vw 2vw;
   align-items: center;
   justify-content: center;
 }
 .about-text {
-    padding: 0 0.5rem;
-    border-radius: 5px;
+  padding: 0 0.5rem;
+  border-radius: 5px;
   font-size: 1.1rem;
   text-align: justify;
 }
@@ -42,7 +41,7 @@
     width: 85vw;
     padding: 2vw 4vw 4vw 4vw;
   }
-  .about-us-heading {
+  .about-heading {
     font-size: 1.7rem;
   }
   .about-text {
