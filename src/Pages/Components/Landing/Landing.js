@@ -10,7 +10,9 @@ export default function Landing() {
         <img src={Logo} alt="Logo" />
       </div>
       <div className="c-timer">
-        <CountdownTimer />
+        <CountdownTimer 
+          countdownTimestampMs={1651190400000}
+        />
       </div>
       <div class="area">
         <ul class="circles">
