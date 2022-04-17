@@ -1,4 +1,4 @@
-/* @import url("http://fonts.cdnfonts.com/css/tele-marines");
+@import url("http://fonts.cdnfonts.com/css/tele-marines");
 
 .about-website {
   display: flex;
@@ -16,39 +16,6 @@
   padding: 0 1rem;
   border-radius: 5px;
 }
-
-.about-text {
-  padding: 0 0.5rem;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  text-align: justify;
-}
-
-@media only screen and (max-width: 600px) {
-  .about-us-box {
-    width: 85vw;
-    padding: 2vw 4vw 4vw 4vw;
-  }
-
-  .about-us-heading {
-    font-size: 1.7rem;
-  }
-
-  .about-text {
-    font-size: 0.9rem;
-  }
-} */
-
-@import url("http://fonts.cdnfonts.com/css/tele-marines");
-
-.about-website {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 3rem;
-}
-
 .about-us-box {
   margin-top: 7rem;
   display: flex;
@@ -70,15 +37,6 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.about-us-heading {
-  font-size: 3rem;
-  font-weight: 500;
-  padding: 0 1rem;
-  border-radius: 5px;
-  font-family: "Tele-Marines Condensed", sans-serif;
-
-}
-
 .about-text {
   padding: 0 0.5rem;
   border-radius: 5px;
@@ -92,7 +50,7 @@
     padding: 2vw 4vw 4vw 4vw;
   }
 
-  .about-heading {
+  .about-us-heading {
     font-size: 1.7rem;
   }
 
