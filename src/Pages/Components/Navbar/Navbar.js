@@ -45,7 +45,7 @@ export default function NaviBar() {
                                     src={IEEE}
                                     className="nav-logo"
                                     alt="IEEE"
-                                    />
+                                />
                             </Link>
                         </div>
                         <div className="header-links">
@@ -53,7 +53,7 @@ export default function NaviBar() {
                                 className={
                                     click ? "nav-menu active" : "nav-menu"
                                 }
-                                >
+                            >
                                 <li className="nav-item">
                                     <LNK
                                         to="about-website"
@@ -78,7 +78,7 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={-70}
                                         duration={100}
-                                        >
+                                    >
                                         Schedule
                                     </LNK>
                                 </li>
@@ -92,7 +92,7 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={-80}
                                         duration={100}
-                                        >
+                                    >
                                         Events
                                     </LNK>
                                 </li>
@@ -107,7 +107,7 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={50}
                                         duration={100}
-                                        >
+                                    >
                                         Sponsors
                                     </Link>
                                 </li>
@@ -122,7 +122,7 @@ export default function NaviBar() {
                                         smooth={true}
                                         offset={50}
                                         duration={100}
-                                        >
+                                    >
                                         Team
                                     </Link>
                                 </li>
