@@ -34,7 +34,7 @@ background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 10
     display: flex;
 }
 .nav-logo{
-    width: 4rem;
+    width: 10rem;
     color: #edf0f1;
     cursor: pointer;
 }

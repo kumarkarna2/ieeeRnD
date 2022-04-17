@@ -1,44 +1,49 @@
 .faq-card:hover {
-  background: rgba(0, 250, 211, 0.5);
+  background-color: rgba(250, 238, 228, 0.6);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  border-radius: .7rem;
+  color: #091318;
   border: 1px solid rgba(255, 255, 255, 0.18);
+
+
 }
+
 .faq-card {
   display: flex;
   flex-direction: column;
   width: 20rem;
-  background: rgba(91, 226, 91, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 1rem;
+  background: rgba(250, 238, 228, 0.6);
+  border-radius: 0.7rem;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: rgb(30, 30, 30);
   padding: 1rem 1.5rem 0.5rem 1.5rem;
-  border-radius: 15px;
 }
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.description-faq {
+  text-align: justify;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq-card {
+    width: 85vw;
+  }
+
   .card-title {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.1rem;
   }
+
   .description-faq {
-    text-align: justify;
+    font-size: 0.9rem;
   }
-  .card-content{
-      display: flex;
-      flex-direction: column;
-  }
-  @media only screen and (max-width: 600px) {
-    .faq-card {
-      width: 85vw;
-    }
-    .card-title {
-      font-size: 1.1rem;
-    }
-    .description-faq {
-      font-size: 0.9rem;
-    }
-  }
+}
