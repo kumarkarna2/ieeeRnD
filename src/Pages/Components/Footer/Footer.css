@@ -108,7 +108,8 @@ margin-left: 2rem;
     justify-content: space-between;
     text-align: center;
     font-size: 1rem;
-    width: 10rem;
+    width: 9rem;
+    margin: 1rem;
     /* height: 10rem; */
 }
 .Footer-Logo_RD{
@@ -118,7 +119,8 @@ margin-left: 2rem;
     justify-content: space-between;
     text-align: center;
     font-size: 1rem;
-    width: 15rem;
+    width: 12rem;
+    margin:2rem;
     /* height: 10rem; */
 }.logo img {
     width: 10rem;
@@ -163,7 +165,7 @@ margin-left: 2rem;
     }
     .Footer-Logo{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         width: auto;
         padding: 0;
@@ -183,11 +185,11 @@ margin-left: 2rem;
     }
 }
 
-@media screen and (max-width:960px) {
+/* @media screen and (max-width:960px) {
     .Murious-Logo{
-        margin: 1rem 0;
+        margin: rem 0;
     }
     .Footer-Logo_TMP{
         height: 100%;
     }
-}
+} */
