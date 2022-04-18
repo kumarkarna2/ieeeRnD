@@ -23,16 +23,14 @@ export default function ScheduleCard(parse) {
                 } `}
             >
                 <div className="schedule-heading">
-                    <div className="schedule-heading-titlebox">
+                    <div
+                        className="schedule-heading-titlebox"
+                        onClick={onClickEvent1}
+                    >
                         <div className="date-time">
                             {parse.date} <br></br> {parse.month}
                         </div>
-                        <div
-                            className="schedule-heading-m"
-                            onClick={onClickEvent1}
-                        >
-                            {parse.day}
-                        </div>
+                        <div className="schedule-heading-m">{parse.day}</div>
                         <div className="more-options-m">
                             <div className="more-option-show">
                                 <FontAwesomeIcon icon={faAngleDown} />
