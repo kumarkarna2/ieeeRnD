@@ -1,33 +1,33 @@
-.team-page{
-  display:flex;
-  flex-direction: column;
-  background: rgb(6, 23, 27);
+.team-page {
+    display: flex;
+    flex-direction: column;
+    background: rgb(6, 23, 27);
     background: linear-gradient(
-      90deg,
-      rgba(6, 23, 27, 1) 0%,
-      rgba(56, 168, 171, 1) 39%,
-      rgba(51, 182, 190, 1) 67%,
-      rgba(6, 23, 27, 1) 100%
+        90deg,
+        rgba(6, 23, 27, 1) 0%,
+        rgba(56, 168, 171, 1) 39%,
+        rgba(51, 182, 190, 1) 67%,
+        rgba(6, 23, 27, 1) 100%
     );
     align-items: center;
 }
-.team-section{
-  align-items:center;
-  gap:4rem;
-  margin-top: 7rem;
-  display:flex;
-  flex-direction: column;
-  height: 100%;
+.team-section {
+    align-items: center;
+    gap: 4rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-.team-heading{
-  /* margin-top: 5rem; */
-  font-size: 3rem;
-  margin-bottom: 4rem;
+.web-team {
+    /* margin-top: 5rem; */
+    font-size: 3rem;
+    margin-bottom: 4rem;
 }
-.team-card-section{
-  display:flex;
-  align-items:center;
-  flex-wrap: wrap;
-  justify-content:center;
-  gap: 5rem;
+.team-card-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
 }
