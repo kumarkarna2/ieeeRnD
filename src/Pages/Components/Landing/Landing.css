@@ -27,6 +27,12 @@
     .logo-ieee img{
         width: 15rem;   
     }
+    .circles{
+        overflow: hidden;
+    }
+    .landing-page{
+        margin: 0;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');

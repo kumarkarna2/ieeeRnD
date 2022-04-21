@@ -97,6 +97,7 @@
     display: flex;
     /* width:1rem; */
     align-items: center;
+    flex-wrap: wrap;
     border-top: 1vh solid rgb(35, 105, 130);
     justify-content: space-between;
     padding: 0 3vw;
