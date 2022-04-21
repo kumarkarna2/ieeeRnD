@@ -9,7 +9,7 @@ export default function About() {
     return (
         <div className="about-website" id="about">
             <div className="about-us-box">
-                <div className="about-heading">ABOuT us</div>
+                <div className="about-heading">ABOUT US</div>
                 <div className="about-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nullam dictum tellus ex, vel egestas ipsum ornare ut. Cras

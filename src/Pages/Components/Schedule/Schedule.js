@@ -5,7 +5,7 @@ import "./Schedule.css";
 export default function Schedule() {
     return (
         <div className="schedule-section" id="schedule">
-            <div className="schedule-section-heading">schedule</div>
+            <div className="schedule-section-heading">SCHEDULE</div>
             <div className="schedule-cards-section">
                 <ScheduleCard
                     date="25"

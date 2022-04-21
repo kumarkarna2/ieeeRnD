@@ -1,27 +1,34 @@
 .sponsors-section {
-  display: flex;
-  /* width: 100vw; */
-  gap: 4rem;
-  margin: 1rem;
-  align-items: center;
-  justify-content: center;
-  /* height: 100vh; */
-  flex-wrap: wrap;
-  /* padding-bottom: 4rem; */
+    display: flex;
+    /* width: 100vw; */
+    gap: 4rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    /* padding-bottom: 4rem; */
 }
-.sponsors-heading{
+.sponsors-heading {
     font-size: 3rem;
     text-align: center;
     margin-top: 7rem;
+    font-family: "Arial ROUNDED mt", sans-serif;
+    /* font-family: "Fredoka One", cursive; */
+    color: rgb(72, 67, 67);
+    /* color: white; */
+    font-size: 3rem;
+    /* padding: 0; */
+    font-weight: 500;
 }
-.sponsor-page{
+.sponsor-page {
     background: rgb(6, 23, 27);
     background: linear-gradient(
-      90deg,
-      rgba(6, 23, 27, 1) 0%,
-      rgba(56, 168, 171, 1) 39%,
-      rgba(51, 182, 190, 1) 67%,
-      rgba(6, 23, 27, 1) 100%
+        90deg,
+        rgba(6, 23, 27, 1) 0%,
+        rgba(56, 168, 171, 1) 39%,
+        rgba(51, 182, 190, 1) 67%,
+        rgba(6, 23, 27, 1) 100%
     );
     /* margin-top: 5rem; */
     display: flex;

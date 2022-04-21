@@ -1,10 +1,12 @@
 import React from "react";
 import "./Footer.css";
 import logo from "./R&D Logo Black.png";
-import TMP_Logo from "./wiecolored.png";
+import ieee from "./IEEE-blue.png";
+import sight from "./sight.png";
+import wie_Logo from "./wiecolored.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
-import { FaGoogle } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
@@ -23,25 +25,36 @@ function Footer() {
                                 <br />
                                 India
                                 <br />
-                                Phone: +91-9418838790
-                                <br />
-                                Email: anthwalangimaa@gmail.com
+                                <strong>
+                                    Phone: +91-7082787975
+                                    <br />
+                                    Email: ieee.juits@juitsolan.in
+                                </strong>
                                 <br />
                             </div>
 
                             <div className="Footer-Socials">
                                 <Link
-                                    to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
+                                    to="//instagram.com/ieeejuit"
+                                    target={"_blank"}
                                     className="insta"
                                 >
-                                    <BsInstagram />
+                                    <FaInstagram />
                                 </Link>
-                                <a href="tel:" className="tel">
-                                    <BsFillTelephoneFill />
-                                </a>
-                                <a href="mailto:" className="google">
-                                    <FaGoogle />
-                                </a>
+                                <Link
+                                    to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
+                                    target={"_blank"}
+                                    className="you"
+                                >
+                                    <FaYoutube />
+                                </Link>
+                                <Link
+                                    to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
+                                    target={"_blank"}
+                                    className="in"
+                                >
+                                    <FaLinkedin />
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -49,16 +62,30 @@ function Footer() {
                     <div className="Footer-Logo">
                         <div className="Footer-Logo_RD">
                             <img
-                                className="Murious-Logo"
-                                alt="Murious"
+                                className="RD-Logo"
+                                alt="R&D logo"
                                 src={logo}
+                            />
+                        </div>
+                        <div className="Footer-Logo_ieee">
+                            <img
+                                className="IEEE-Logo"
+                                alt="IEEE logo"
+                                src={ieee}
+                            />
+                        </div>
+                        <div className="Footer-Logo_sight">
+                            <img
+                                className="sight-Logo"
+                                alt="Sight logo"
+                                src={sight}
                             />
                         </div>
                         <div className="Footer-Logo_wie">
                             <img
-                                className="TMP_logo"
-                                alt="TMP"
-                                src={TMP_Logo}
+                                className="WIE_logo"
+                                alt="WIE logo"
+                                src={wie_Logo}
                             />
 
                             <p className="TMP-Text"></p>

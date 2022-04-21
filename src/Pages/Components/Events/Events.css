@@ -1,17 +1,20 @@
-.events-section{
+.events-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 5rem;
 }
-.events-heading{
-        font-family: "Tele-Marines Condensed",
-        sans-serif;
+.events-heading {
+    font-family: "Arial ROUNDED mt", sans-serif;
+    /* font-family: "Fredoka One", cursive; */
+    color: rgb(72, 67, 67);
+    /* color: white; */
     font-size: 3rem;
+    /* padding: 0; */
     font-weight: 500;
 }
-.events-cards-section{
+.events-cards-section {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;

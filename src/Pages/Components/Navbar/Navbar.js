@@ -56,7 +56,7 @@ export default function NaviBar() {
                             >
                                 <li className="nav-item">
                                     <LNK
-                                        to="about-website"
+                                        to="about"
                                         className="nav-links"
                                         activeClassName="active"
                                         onClick={handleClick}

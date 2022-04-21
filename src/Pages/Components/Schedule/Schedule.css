@@ -1,23 +1,28 @@
-.schedule-section{
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+.schedule-section {
     flex-direction: column;
     margin-top: 5rem;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.schedule-section-heading{
-    font-family: "Tele-Marines Condensed",
-    sans-serif;
+.schedule-section-heading {
+    /* font-family: "Tele-Marines Condensed", sans-serif; */
+    font-family: "Arial ROUNDED mt", sans-serif;
+    /* font-family: "PT Sans", cursive; */
+    color: rgb(72, 67, 67);
+    /* color: white; */
+    margin-bottom: 0.5rem;
     font-size: 3rem;
     font-weight: 500;
 }
-.schedule-cards-section{
+.schedule-cards-section {
     display: flex;
     gap: 1rem;
     flex-direction: column;
 }
-@media only screen and (max-width:600px) {
-    .schedule-section-heading{
+@media only screen and (max-width: 600px) {
+    .schedule-section-heading {
         font-size: 1.7rem;
     }
 }

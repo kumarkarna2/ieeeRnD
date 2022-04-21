@@ -1,60 +1,62 @@
 @import url("http://fonts.cdnfonts.com/css/tele-marines");
-
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"); */
 .about-website {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 .about-heading {
-  font-family: "Tele-Marines Condensed",
-    sans-serif;
-  font-size: 3rem;
-  font-weight: 500;
-  padding: 0 1rem;
-  border-radius: 5px;
+    font-family: "Arial ROUNDED mt", sans-serif;
+    color: rgb(72, 67, 67);
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 3rem;
+    font-weight: 00;
+    padding: 0 1rem;
+    border-radius: 5px;
 }
 .about-us-box {
-  margin-top: 7rem;
-  display: flex;
-  background: rgba(250, 238, 228, 0.6);
-  width: 66.5vw;
-  flex-direction: column;
-  border-radius: 0.7rem;
-  padding: 0.5vw 2vw 2vw 2vw;
-  align-items: center;
-  justify-content: center;
+    margin-top: 7rem;
+    display: flex;
+    background: rgba(250, 238, 228, 0.6);
+    width: 66.5vw;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    padding: 0.5vw 2vw 2vw 2vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us-box:hover {
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  background-color: rgba(250, 238, 228, 0.6);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  color: #091318;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background-color: rgba(250, 238, 228, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #091318;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .about-text {
-  padding: 0 0.5rem;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  text-align: justify;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
-  .about-us-box {
-    width: 85vw;
-    padding: 2vw 4vw 4vw 4vw;
-  }
+    .about-us-box {
+        width: 85vw;
+        padding: 2vw 4vw 4vw 4vw;
+    }
 
-  .about-us-heading {
-    font-size: 1.7rem;
-  }
+    .about-us-heading {
+        font-size: 1.7rem;
+    }
 
-  .about-text {
-    font-size: 0.9rem;
-  }
+    .about-text {
+        font-size: 0.9rem;
+    }
 }

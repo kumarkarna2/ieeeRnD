@@ -1,34 +1,42 @@
 .team-card {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  width: 15rem;
-  height: 17rem;
-  border-radius: 10px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(3.5px);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 15rem;
+    height: 17rem;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
 }
 .team-member-photo {
-  padding-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 .team-member-photo img {
-  width: 12rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 12rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.team-member-details{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1rem;
+.team-member-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: "Arial ROUNDED mt", sans-serif;
+    /* font-family: "Fredoka One", cursive; */
+    color: rgb(72, 67, 67);
+    /* color: white; */
+    font-size: 1rem;
+    /* padding: 0; */
+    /* font-weight: 200; */
 }
-.team-member-socials{
-  color: wheat;
-  font-size: 2rem;
+.instagram {
+    color: #bc2a8d;
+    font-size: 2rem;
+    text-align: center;
 }
