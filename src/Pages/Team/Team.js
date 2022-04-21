@@ -4,7 +4,7 @@ import TeamCard from "./Card/TeamCard";
 import "./Team.css";
 import Mayank from "./Images/Mayank.jpeg";
 import NaviBar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Footer1 from "../Components/Footer1/Footer1";
 
 export default function Team() {
     return (
@@ -56,7 +56,7 @@ export default function Team() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer1 />
         </div>
     );
 }

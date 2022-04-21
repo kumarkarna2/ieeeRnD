@@ -1,0 +1,220 @@
+.Footer-section1 {
+    background: rgb(57, 171, 163);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #181616;
+    padding: 2vh 0;
+}
+.Footer-Content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3%;
+    border-bottom: 1vh solid rgb(35, 105, 130);
+}
+.Footer-Text1 {
+    display: flex;
+    text-align: left;
+}
+.Contact-Us1 {
+    color: rgba(232, 220, 220, 0.9);
+    margin-left: 1rem;
+}
+.Footer-Line_l {
+    width: 11.5rem;
+    height: 0.5vh;
+    margin-left: 1rem;
+    z-index: 2;
+    background-color: rgb(35, 105, 130);
+}
+.Footer-Details1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+}
+.Footer-Socials {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.insta {
+    text-decoration: none;
+    padding: 0 0.7vw;
+    margin-right: 2rem;
+    font-size: 2rem;
+    animation: float 5s ease-in-out infinite;
+    color: #bc2a8d;
+}
+.insta :hover {
+    color: rgb(223, 223, 223);
+}
+.you {
+    color: #ff0000;
+    text-decoration: none;
+    padding: 0 0.7vw;
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    animation: float 3s ease-in-out reverse infinite;
+}
+
+.you :hover {
+    color: rgb(223, 223, 223);
+}
+.in {
+    color: #045a88;
+    text-decoration: none;
+    padding: 0 0.7vw;
+    margin-left: 2rem;
+
+    font-size: 2rem;
+    animation: float 4s ease-in-out infinite;
+}
+
+.in :hover {
+    color: rgb(223, 223, 223);
+}
+.Footer-Line_l2 {
+    width: 40vw;
+    height: 1vh;
+    background-color: #b9a8cd;
+}
+.Footer-Logo {
+    display: flex;
+    /* width:1rem; */
+    align-items: center;
+    border-top: 1vh solid rgb(35, 105, 130);
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+
+.Footer-Logo_RD {
+    display: flex;
+    width: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    width: 8rem;
+    margin: 0.6rem;
+    /* height: 10rem; */
+}
+.Footer-Logo_ieee {
+    display: flex;
+    width: 1rem;
+    opacity: 0.7;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    width: 12rem;
+    margin: 1rem;
+    /* height: 10rem; */
+}
+.Footer-Logo_sight {
+    display: flex;
+    width: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    width: 9rem;
+    margin: 1rem;
+    /* height: 10rem; */
+}
+.Footer-Logo_wie {
+    display: flex;
+    width: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    width: 7rem;
+    margin: 1rem;
+    /* height: 10rem; */
+}
+.logo img {
+    width: 10rem;
+}
+.wie_Text p {
+    padding: 1vh 0;
+}
+.wie_logo img {
+    width: 10rem;
+}
+
+.Footer-Copyright {
+    display: flex;
+    padding-top: 2vh;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width: 960px) {
+    .Footer-Details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer-Line_l1 {
+        width: 30%;
+    }
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer-Content {
+        display: flex;
+        flex-direction: column;
+        padding: 2vh 0;
+    }
+    .Footer-Text {
+        display: flex;
+        justify-content: center;
+    }
+    .Footer-Logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        padding: 0;
+    }
+    .Footer-Socials {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .Sociallinks {
+        padding: 0 2rem;
+    }
+    .Footer-Copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width:960px) {
+    .Murious-Logo{
+        margin: rem 0;
+    }
+    .Footer-Logo_TMP{
+        height: 100%;
+    }
+} */

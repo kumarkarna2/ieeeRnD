@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Components/Footer/Footer";
+import Footer1 from "../Components/Footer1/Footer1";
 import NaviBar from "../Components/Navbar/Navbar";
 import "./Contact.css";
 
@@ -20,7 +20,7 @@ export default function Contact() {
                     Loading…
                 </iframe>
             </div>
-            <Footer />
+            <Footer1 />
         </div>
     );
 }

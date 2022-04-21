@@ -8,7 +8,7 @@ import Hundai from "./Images/Hundai.png";
 import JIO from "./Images/JIO.jpg";
 import Nescafe from "./Images/Nescafe.jpg";
 import TSS from "./Images/TSS.png";
-import Footer from "../Components/Footer/Footer";
+import Footer1 from "../Components/Footer1/Footer1";
 
 export default function Sponsors() {
     return (
@@ -33,7 +33,7 @@ export default function Sponsors() {
                     />
                 </div>
             </div>
-            <Footer />
+            <Footer1 />
         </div>
     );
 }

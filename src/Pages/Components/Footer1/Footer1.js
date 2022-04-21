@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer1.css";
 import logo from "./R&D Logo Black.png";
 import ieee from "./IEEE-blue.png";
 import sight from "./sight.png";
@@ -9,16 +9,16 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-function Footer() {
+function Footer1() {
     return (
         <>
-            <div className="Footer-section">
-                <div className="Footer-Content">
-                    <div className="Footer-Text">
-                        <div className="Footer-Details">
-                            <h1 className="Contact-Us">Contact Us</h1>
-                            <div className="Footer-Line_l1"></div>
-                            <div className="Footer-Details footertext">
+            <div className="Footer-section1">
+                <div className="Footer-Content1">
+                    <div className="Footer-Text1">
+                        <div className="Footer-Details1">
+                            <h1 className="Contact-Us1">Contact Us</h1>
+                            <div className="Footer-Line_l"></div>
+                            <div className="Footer-Details">
                                 Jaypee University Of Information Technology
                                 <br />
                                 Waknaghat, HP - 173234
@@ -102,4 +102,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer1;
