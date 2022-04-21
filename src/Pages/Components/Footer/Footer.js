@@ -5,14 +5,14 @@ import ieee from "./IEEE-blue.png";
 import sight from "./sight.png";
 import wie_Logo from "./wiecolored.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
+// import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
     return (
         <>
-            <div className="Footer">
+            <div className="Footer-section">
                 <div className="Footer-Content">
                     <div className="Footer-Text">
                         <div className="Footer-Details">

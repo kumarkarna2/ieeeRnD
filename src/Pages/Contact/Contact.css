@@ -15,12 +15,19 @@
 }
 
 .contact-us-heading {
-    color: white;
+    /* color: rgb(232, 220, 220); */
+
     margin-top: 7rem;
     margin-bottom: 3rem;
     display: flex;
+    margin-bottom: 1rem;
+    font-family: "Arial ROUNDED mt", sans-serif;
+    /* font-family: "Fredoka One", cursive; */
+    color: rgb(72, 67, 67);
+    /* color: white; */
     font-size: 3rem;
-    /* color: blue; */
+    /* padding: 0; */
+    font-weight: 500;
 }
 .contact-form :nth-child(6) {
     justify-content: center;
