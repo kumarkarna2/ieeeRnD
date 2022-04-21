@@ -28,11 +28,7 @@ export default function NaviBar() {
     return (
         <nav className="navibar">
             <div className={header ? "header active" : "header"}>
-                <div
-                    className={`header-wrapper ${
-                        click ? "header-wrapper active" : ""
-                    } `}
-                >
+                <div className={`header-wrapper ${click ? "header-wrapper active" :''} `}>
                     <div className="nav-container">
                         <div className="logo-header">
                             <Link
@@ -49,11 +45,7 @@ export default function NaviBar() {
                             </Link>
                         </div>
                         <div className="header-links">
-                            <ul
-                                className={
-                                    click ? "nav-menu active" : "nav-menu"
-                                }
-                            >
+                            <ul className={click ? "nav-menu active" : "nav-menu"}>
                                 <li className="nav-item">
                                     <LNK
                                         to="about"
