@@ -1,10 +1,48 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import TeamCard from "./Card/TeamCard";
 import "./Team.css";
-import Mayank from "./Images/Mayank.jpeg";
+import Mayank from "./images/Mayank.jpeg";
 import NaviBar from "../Components/Navbar/Navbar";
 import Footer1 from "../Components/Footer1/Footer1";
+import karna from "./images/Karna.jpg";
+import aditya from "./images/aditya.png";
+import amisha from "./images/amisha.jpeg";
+import angel from "./images/angel.jpg";
+import annu from "./images/annu.JPG";
+import anny from "./images/anny.jpeg";
+import arnav from "./images/arnav.jpg";
+import arpit from "./images/arpit.jpg";
+import geetali from "./images/geetali.jpeg";
+import gunjan from "./images/gunjan.jpg";
+import gurleen from "./images/gurleen.JPG";
+import hridhima from "./images/hridhima.jpg";
+import isha from "./images/isha.jpeg";
+import manav from "./images/manav.jpg";
+import modi from "./images/modi.jpeg";
+import om from "./images/om.jpg";
+import prakhar from "./images/prakhar.jpg";
+import rao from "./images/rao.jpg";
+import samagra from "./images/samagra.jpg";
+import shubhang from "./images/SHUBHANG.jpg";
+import vipul from "./images/vipul.jpg";
+import vansh from "./images/vansh.webp";
+import vishu from "./images/vishu.jpg";
+import vishruti from "./images/vishruti.jpg";
+import yash from "./images/yash.jpeg";
+import adityas from "./council/aditya.jpg";
+import akshat from "./council/akshat.jpg";
+import ananya from "./council/ananya.jpg";
+import anushka from "./council/anushka.jpg";
+import archit from "./council/archit.jpg";
+import geetansh from "./council/geetansh.jpg";
+import harshit from "./council/harshit.jpg";
+import nandini from "./council/nandini.jpg";
+import pushp from "./council/pushp.jpg";
+import raven from "./council/raven.png";
+import ravi from "./council/ravi.jpg";
+import ritika from "./council/ritika.jpg";
+import shaan from "./council/shaan2.jpg";
 
 export default function Team() {
     return (
@@ -12,34 +50,352 @@ export default function Team() {
             <NaviBar />
             <div className="team-page">
                 <div className="team-section">
+                    <div className="web-team">Council</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={adityas}
+                            alt="Aditya Saxena"
+                            name="Aditya Saxena"
+                            insta="//www.instagram.com/kumarkarna2/"
+                        />
+                        <TeamCard
+                            img={akshat}
+                            alt="Akshat"
+                            name="Akshat"
+                            insta="//www.instagram.com/racinmk/"
+                        />
+                        <TeamCard
+                            img={ananya}
+                            alt="Ananya Sood"
+                            name="Ananya Sood"
+                            insta="//www.instagram.com/i.e_aditya/"
+                        />
+                        <TeamCard
+                            img={anushka}
+                            alt="Anushka"
+                            name="Anushka"
+                            insta="//www.instagram.com/gunjanxv/"
+                        />
+                        <TeamCard
+                            img={archit}
+                            alt="Archit Dogra"
+                            name="Archit Dogra"
+                            insta="//www.instagram.com/hridhimaasen/"
+                        />
+                        <TeamCard
+                            img={geetansh}
+                            alt="Geetansh Garg"
+                            name="Geetansh Garg"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                        <TeamCard
+                            img={harshit}
+                            alt="Harshit Singh"
+                            name="Harshit Singh"
+                            insta="//www.instagram.com/annusadhna144/"
+                        />
+                        <TeamCard
+                            img={nandini}
+                            alt="Nandini"
+                            name="Nandini "
+                            insta="//www.instagram.com/vishruti_sharma_/"
+                        />
+                        <TeamCard
+                            img={pushp}
+                            alt="Pushp Jain"
+                            name="Pushp Jain"
+                            insta="//www.instagram.com/isha__rwtt/"
+                        />
+                        <TeamCard
+                            img={raven}
+                            alt="Raven Mehta"
+                            name="Raven Mehta"
+                            insta="//www.instagram.com/shubhangshukla_/"
+                        />
+                        <TeamCard
+                            img={ravi}
+                            alt="Ravi Srivastva"
+                            name="Ravi Srivastva"
+                            insta="//www.instagram.com/__vishuuu3/"
+                        />
+                        <TeamCard
+                            img={ritika}
+                            alt="Ritika"
+                            name="Ritika"
+                            insta="//www.instagram.com/geetali_goel/"
+                        />
+                        <TeamCard
+                            img={shaan}
+                            alt="Shaan Srivastva "
+                            name="Shaan Srivastva"
+                            insta=" //www.instagram.com/geetali_goel/"
+                        />
+                    </div>
                     <div className="web-team">Web Team</div>
                     <div className="team-card-section">
                         <TeamCard
+                            img={karna}
+                            alt="Karna Kumar Chaudhary"
+                            name="karna Kumar Chaudhary"
+                            insta="//www.instagram.com/kumarkarna2/"
+                        />
+                        <TeamCard
                             img={Mayank}
-                            alt="Mayank"
+                            alt="Mayank Kumar"
                             name="Mayank Kumar"
                             insta="//www.instagram.com/racinmk/"
                         />
                         <TeamCard
-                            img={Mayank}
+                            img={aditya}
                             alt="Mayank"
-                            name="Mayank Kumar"
-                            insta="//www.instagram.com/racinmk/"
+                            name="Aditya Sahni"
+                            insta="//www.instagram.com/i.e_aditya/"
                         />
                         <TeamCard
-                            img={Mayank}
-                            alt="Mayank"
-                            name="Mayank Kumar"
-                            insta="//www.instagram.com/racinmk/"
+                            img={gunjan}
+                            alt="Gunjan Verma"
+                            name="Gunjan Verma"
+                            insta="//www.instagram.com/gunjanxv/"
+                        />
+                        <TeamCard
+                            img={hridhima}
+                            alt="Hridhima Sen"
+                            name="Hridhima Sen "
+                            insta="//www.instagram.com/hridhimaasen/"
+                        />
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                        <TeamCard
+                            img={annu}
+                            alt="Annu Chauhan"
+                            name="Annu Chauhan"
+                            insta="//www.instagram.com/annusadhna144/"
+                        />
+                        <TeamCard
+                            img={vishruti}
+                            alt="Vishruti Sharma"
+                            name="Vishruti Sharma "
+                            insta="//www.instagram.com/vishruti_sharma_/"
+                        />
+                        <TeamCard
+                            img={isha}
+                            alt="Isha Rawat"
+                            name="Isha Rawat"
+                            insta="//www.instagram.com/isha__rwtt/"
+                        />
+                        <TeamCard
+                            img={shubhang}
+                            alt="Shubhang Shukla"
+                            name="Shubhang Shukla"
+                            insta="//www.instagram.com/shubhangshukla_/"
+                        />
+                        <TeamCard
+                            img={vishu}
+                            alt="Vishu Kumar Banerjee"
+                            name="Vishu Kumar Banerjee"
+                            insta="//www.instagram.com/__vishuuu3/"
+                        />
+                        <TeamCard
+                            img={geetali}
+                            alt="Geetali Goel "
+                            name="Geetali Goel "
+                            insta="//www.instagram.com/geetali_goel/"
                         />
                     </div>
                     <div className="web-team">Design Team</div>
                     <div className="team-card-section">
                         <TeamCard
-                            img={Mayank}
-                            alt="Mayank"
-                            name="Mayank Kumar"
-                            insta="//www.instagram.com/racinmk/"
+                            img={arnav}
+                            alt="Arnav Seth"
+                            name="Arnav Seth"
+                            insta="//www.instagram.com/arnavsethh/"
+                        />
+                        <TeamCard
+                            img={isha}
+                            alt="Isha Rawat"
+                            name="Isha Rawat"
+                            insta="//www.instagram.com/isha__rwtt/"
+                        />
+                        <TeamCard
+                            img={vansh}
+                            alt="Vansh Gulati"
+                            name="Vansh Gulati"
+                            insta="//www.instagram.com/Unsanskari_bachha/"
+                        />
+                        <TeamCard
+                            img={rao}
+                            alt="Anant Rao"
+                            name="Anant Rao"
+                            insta="//www.instagram.com/_rao.sahab_/"
+                        />
+                        <TeamCard
+                            img={karna}
+                            alt="Karna Kumar Chaudhary"
+                            name="karna Kumar Chaudhary"
+                            insta="//www.instagram.com/kumarkarna2/"
+                        />
+                        <TeamCard
+                            img={angel}
+                            alt="Angel Singh"
+                            name="Angel Singh"
+                            insta="//www.instagram.com/1aangie/"
+                        />
+                        <TeamCard
+                            img={gurleen}
+                            alt="Gurleen Kaur"
+                            name="Gurleen Kaur"
+                            insta="//www.instagram.com/neeti153/"
+                        />
+                        <TeamCard
+                            img={shubhang}
+                            alt="Shubhang Shukla"
+                            name="Shubhang Shukla"
+                            insta="//www.instagram.com/shubhangshukla_/"
+                        />
+                    </div>
+                    <div className="web-team">Hackathon Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={gunjan}
+                            alt="Gunjan Verma"
+                            name="Gunjan Verma"
+                            insta="//www.instagram.com/gunjanxv/"
+                        />
+                        <TeamCard
+                            img={isha}
+                            alt="Isha Rawat"
+                            name="Isha Rawat"
+                            insta="//www.instagram.com/isha__rwtt/"
+                        />
+                        <TeamCard
+                            img={arnav}
+                            alt="Arnav Seth"
+                            name="Arnav Seth"
+                            insta="//www.instagram.com/arnavsethh/"
+                        />
+                        <TeamCard
+                            img={modi}
+                            alt="Krishna Modi"
+                            name="Krishna Modi"
+                            insta="//www.instagram.com/krishna_modi_12/"
+                        />
+                        <TeamCard
+                            img={vipul}
+                            alt="Vipul Arora"
+                            name="Vipul Arora"
+                            insta="//www.instagram.com/ar0ravipul/"
+                        />
+                        <TeamCard
+                            img={vansh}
+                            alt="Vansh Gulati"
+                            name="Vansh Gulati"
+                            insta="//www.instagram.com/Unsanskari_bachha/"
+                        />
+                        <TeamCard
+                            img={rao}
+                            alt="Anant Rao"
+                            name="Anant Rao"
+                            insta="//www.instagram.com/_rao.sahab_/"
+                        />
+                        <TeamCard
+                            img={angel}
+                            alt="Angel Singh"
+                            name="Angel Singh"
+                            insta="//www.instagram.com/1aangie/"
+                        />
+                        <TeamCard
+                            img={gurleen}
+                            alt="Gurleen Kaur"
+                            name="Gurleen Kaur"
+                            insta="//www.instagram.com/neeti153/"
+                        />
+                        <TeamCard
+                            img={shubhang}
+                            alt="Shubhang Shukla"
+                            name="Shubhang Shukla"
+                            insta="//www.instagram.com/shubhangshukla_/"
+                        />
+                        <TeamCard
+                            img={amisha}
+                            alt="Amisha Chauhan"
+                            name="Amisha Chauhan"
+                            insta="//www.instagram.com/amishachauhan.12/"
+                        />
+                    </div>
+                    <div className="web-team">Squid Game Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arpit}
+                            alt="Arpit Kaushal"
+                            name="Arpit Kaushal"
+                            insta="//www.instagram.com/general.broda/"
+                        />
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                        <TeamCard
+                            img={samagra}
+                            alt="Samagra Dvivedi"
+                            name="Samagra Dvivedi"
+                            insta="//www.instagram.com/samagura.senpai/"
+                        />
+                        <TeamCard
+                            img={modi}
+                            alt="Krishna Modi"
+                            name="Krishna Modi"
+                            insta="//www.instagram.com/krishna_modi_12/"
+                        />
+                        <TeamCard
+                            img={anny}
+                            alt="Ananya Dhangar "
+                            name="Ananya Dhangar "
+                            insta=""
+                        />
+                        <TeamCard
+                            img={vipul}
+                            alt="Vipul Arora"
+                            name="Vipul Arora"
+                            insta="//www.instagram.com/ar0ravipul/"
+                        />
+                        <TeamCard
+                            img={yash}
+                            alt="Yashvardhan Sharma"
+                            name="Yashvardhan Sharma"
+                            insta="//www.instagram.com/261vardhan/"
+                        />
+                        <TeamCard
+                            img={prakhar}
+                            alt="Prakhar Jain"
+                            name="Prakhar Jain"
+                            insta="//www.instagram.com/prakhar_jain28/"
+                        />
+                    </div>
+                    <div className="web-team">VCL Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={vishruti}
+                            alt="Vishruti Sharma"
+                            name="Vishruti Sharma "
+                            insta="//www.instagram.com/vishruti_sharma_/"
+                        />
+                        <TeamCard
+                            img={modi}
+                            alt="Krishna Modi"
+                            name="Krishna Modi"
+                            insta="//www.instagram.com/krishna_modi_12/"
+                        />
+                        <TeamCard
+                            img={vipul}
+                            alt="Vipul Arora"
+                            name="Vipul Arora"
+                            insta="//www.instagram.com/ar0ravipul/"
                         />
                         <TeamCard
                             img={Mayank}
@@ -48,10 +404,140 @@ export default function Team() {
                             insta="//www.instagram.com/racinmk/"
                         />
                         <TeamCard
-                            img={Mayank}
+                            img={rao}
+                            alt="Anant Rao"
+                            name="Anant Rao"
+                            insta="//www.instagram.com/_rao.sahab_/"
+                        />
+                        <TeamCard
+                            img={angel}
+                            alt="Angel Singh"
+                            name="Angel Singh"
+                            insta="//www.instagram.com/1aangie/"
+                        />
+                        <TeamCard
+                            img={yash}
+                            alt="Yashvardhan Sharma"
+                            name="Yashvardhan Sharma"
+                            insta="//www.instagram.com/261vardhan/"
+                        />
+                        <TeamCard
+                            img={shubhang}
+                            alt="Shubhang Shukla"
+                            name="Shubhang Shukla"
+                            insta="//www.instagram.com/shubhangshukla_/"
+                        />
+                        <TeamCard
+                            img={amisha}
+                            alt="Amisha Chauhan"
+                            name="Amisha Chauhan"
+                            insta="//www.instagram.com/amishachauhan.12/"
+                        />
+                    </div>
+                    <div className="web-team">Velocity Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arpit}
+                            alt="Arpit Kaushal"
+                            name="Arpit Kaushal"
+                            insta="//www.instagram.com/general.broda/"
+                        />
+                        <TeamCard
+                            img={manav}
+                            alt="Manav Gupta"
+                            name="Manav Gupta"
+                            insta="//www.instagram.com/manav.g27/"
+                        />
+                        <TeamCard
+                            img={modi}
+                            alt="Krishna Modi"
+                            name="Krishna Modi"
+                            insta="//www.instagram.com/krishna_modi_12/"
+                        />
+                        <TeamCard
+                            img={anny}
+                            alt="Ananya Dhangar "
+                            name="Ananya Dhangar "
+                            insta=""
+                        />
+                        <TeamCard
+                            img={vipul}
+                            alt="Vipul Arora"
+                            name="Vipul Arora"
+                            insta="//www.instagram.com/ar0ravipul/"
+                        />
+                        <TeamCard
+                            img={angel}
+                            alt="Angel Singh"
+                            name="Angel Singh"
+                            insta="//www.instagram.com/1aangie/"
+                        />
+                        <TeamCard
+                            img={geetali}
+                            alt="Geetali Goel "
+                            name="Geetali Goel "
+                            insta="//www.instagram.com/geetali_goel/"
+                        />
+                    </div>
+                    <div className="web-team">Gaming Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                        <TeamCard
+                            img={vishu}
+                            alt="Vishu Kumar Banerjee"
+                            name="Vishu Kumar Banerjee"
+                            insta="//www.instagram.com/__vishuuu3/"
+                        />
+
+                        <TeamCard
+                            img={rao}
+                            alt="Anant Rao"
+                            name="Anant Rao"
+                            insta="//www.instagram.com/_rao.sahab_/"
+                        />
+                        <TeamCard
+                            img={karna}
+                            alt="Karna Kumar Chaudhary"
+                            name="karna Kumar Chaudhary"
+                            insta="//www.instagram.com/kumarkarna2/"
+                        />
+                        <TeamCard
+                            img={aditya}
                             alt="Mayank"
-                            name="Mayank Kumar"
-                            insta="//www.instagram.com/racinmk/"
+                            name="Aditya Sahni"
+                            insta="//www.instagram.com/i.e_aditya/"
+                        />
+                    </div>
+                    <div className="web-team">IoT Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arpit}
+                            alt="Arpit Kaushal"
+                            name="Arpit Kaushal"
+                            insta="//www.instagram.com/general.broda/"
+                        />
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                        <TeamCard
+                            img={samagra}
+                            alt="Samagra Dvivedi"
+                            name="Samagra Dvivedi"
+                            insta="//www.instagram.com/samagura.senpai/"
+                        />
+                        <TeamCard
+                            img={yash}
+                            alt="Yashvardhan Sharma"
+                            name="Yashvardhan Sharma"
+                            insta="//www.instagram.com/261vardhan/"
                         />
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default function TeamCard(parse) {
                     {parse.name}
                     <div className="social">
                         <Link
-                            to="//instagram.com/ieeejuit"
+                            to={parse.insta}
                             target={"_blank"}
                             className="instagram"
                         >

@@ -11,10 +11,11 @@
     );
     align-items: center;
 }
+
 .team-section {
     align-items: center;
     gap: 4rem;
-    margin-top: 7rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     height: 100%;
