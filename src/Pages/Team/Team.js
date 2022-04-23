@@ -56,79 +56,79 @@ export default function Team() {
                             img={adityas}
                             alt="Aditya Saxena"
                             name="Aditya Saxena"
-                            insta="//www.instagram.com/kumarkarna2/"
+                            insta="https://www.instagram.com/saxenaaditya12/"
                         />
                         <TeamCard
                             img={akshat}
                             alt="Akshat"
                             name="Akshat"
-                            insta="//www.instagram.com/racinmk/"
+                            insta="https://www.instagram.com/_akshat_akd/"
                         />
                         <TeamCard
                             img={ananya}
                             alt="Ananya Sood"
                             name="Ananya Sood"
-                            insta="//www.instagram.com/i.e_aditya/"
+                            insta="https://www.instagram.com/ananya.sood_/"
                         />
                         <TeamCard
                             img={anushka}
-                            alt="Anushka"
-                            name="Anushka"
-                            insta="//www.instagram.com/gunjanxv/"
+                            alt="Anushka Singh"
+                            name="Anushka Singh"
+                            insta="https://www.instagram.com/_anushka_singh_0_7/"
                         />
                         <TeamCard
                             img={archit}
                             alt="Archit Dogra"
                             name="Archit Dogra"
-                            insta="//www.instagram.com/hridhimaasen/"
+                            insta=""
                         />
                         <TeamCard
                             img={geetansh}
                             alt="Geetansh Garg"
                             name="Geetansh Garg"
-                            insta="//www.instagram.com/Call__me__hades__/"
+                            insta="https://www.instagram.com/garggeetansh011/"
                         />
                         <TeamCard
                             img={harshit}
                             alt="Harshit Singh"
                             name="Harshit Singh"
-                            insta="//www.instagram.com/annusadhna144/"
+                            insta="https://www.instagram.com/_harshit_73/"
                         />
                         <TeamCard
                             img={nandini}
-                            alt="Nandini"
-                            name="Nandini "
-                            insta="//www.instagram.com/vishruti_sharma_/"
+                            alt="Nandini Singh"
+                            name="Nandini Singh"
+                            insta="https://www.instagram.com/nandini0842/"
                         />
                         <TeamCard
                             img={pushp}
                             alt="Pushp Jain"
                             name="Pushp Jain"
-                            insta="//www.instagram.com/isha__rwtt/"
+                            insta="https://www.instagram.com/_pushp_jain_/"
                         />
                         <TeamCard
                             img={raven}
                             alt="Raven Mehta"
                             name="Raven Mehta"
-                            insta="//www.instagram.com/shubhangshukla_/"
+                            insta="https://www.instagram.com/xll_raven_mehta_llx/"
                         />
                         <TeamCard
                             img={ravi}
-                            alt="Ravi Srivastva"
-                            name="Ravi Srivastva"
-                            insta="//www.instagram.com/__vishuuu3/"
+                            alt="Ravi Srivastava"
+                            name="Ravi Srivastava"
+                            insta="https://www.instagram.com/ravi_srivastava123/"
                         />
                         <TeamCard
                             img={ritika}
-                            alt="Ritika"
-                            name="Ritika"
-                            insta="//www.instagram.com/geetali_goel/"
+                            alt="Ritika Tiwari"
+                            name="Ritika Tiwari"
+                            insta="https://www.instagram.com/_ritika_tiwari/"
                         />
                         <TeamCard
                             img={shaan}
-                            alt="Shaan Srivastva "
-                            name="Shaan Srivastva"
-                            insta=" //www.instagram.com/geetali_goel/"
+                            alt="Shaan Srivastava "
+                            name="Shaan Srivastava"
+                            insta="https://www.instagram.com/rated_r754/"
                         />
                     </div>
                     <div className="web-team">Web Team</div>
