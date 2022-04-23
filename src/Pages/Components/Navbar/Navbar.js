@@ -20,7 +20,7 @@ export default function NaviBar() {
     };
 
     window.addEventListener("scroll", changeBackground);
-    const [isOpen, setOpen] = useState(false);
+    const [isNavExpanded, setIsNavExpanded] = useState(false);
 
     const [click, setClick] = useState(false);
 
@@ -28,7 +28,11 @@ export default function NaviBar() {
     return (
         <nav className="navibar">
             <div className={header ? "header active" : "header"}>
-                <div className={`header-wrapper ${click ? "header-wrapper active" :''} `}>
+                <div
+                    className={`header-wrapper ${
+                        click ? "header-wrapper active" : ""
+                    } `}
+                >
                     <div className="nav-container">
                         <div className="logo-header">
                             <Link
@@ -45,7 +49,11 @@ export default function NaviBar() {
                             </Link>
                         </div>
                         <div className="header-links">
-                            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                            <ul
+                                className={
+                                    click ? "nav-menu active" : "nav-menu"
+                                }
+                            >
                                 <li className="nav-item">
                                     <LNK
                                         to="about"
@@ -134,7 +142,12 @@ export default function NaviBar() {
                                     </Link>
                                 </li>
                             </ul>
-                            <div className="nav-icon" onClick={handleClick}>
+                            <div
+                                className="nav-icon"
+                                onClick={() => {
+                                    setIsNavExpanded(!isNavExpanded);
+                                }}
+                            >
                                 {click ? <RiCloseLine /> : <RiMenu3Line />}
                             </div>
                         </div>
