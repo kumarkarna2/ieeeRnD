@@ -39,14 +39,14 @@
 }
 .logo-header {
     display: flex;
-    border-radius: 15px;
+    border-radius: 1rem;
     transition: all 0.5;
 }
 .nav-logo {
     width: 10rem;
     color: #edf0f1;
     cursor: pointer;
-    padding: 0.1rem;
+    padding: 0.2rem;
 }
 .nav-menu {
     display: flex;
@@ -58,7 +58,7 @@
     cursor: pointer;
     color: #edf0f1;
     text-decoration: none;
-    padding: 0rem 0.52vw 0.1vw 0.5vw;
+    padding: 0rem 0.5vw 0.15vw 0.5vw;
     background-color: transparent;
     border-radius: 15px;
     border: 1px solid transparent;
@@ -137,6 +137,8 @@
         display: flex;
         color: #edf0f1;
         position: absolute;
+        align-items: center;
+        justify-items: center;
         top: 2vh;
         right: 0;
         cursor: pointer;
