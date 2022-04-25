@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import IEEE from "./Images/IEEE-JUIT(white).png";
 import { Link } from "react-router-dom";
 import {
     Button,
@@ -35,6 +36,14 @@ export default function Navibar() {
                     onclick="updatemenu()"
                 />
                 <label />
+                <ul>
+                    <li>
+                        <img
+                            src={IEEE}
+                            alt="IEEE"
+                            id="nav-logo" />
+                    </li>
+                </ul>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
