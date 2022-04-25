@@ -5,8 +5,14 @@
     padding-left: 18px;
     border-radius: 0px;
     height: 4.7rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
 }
-
+#link{
+    display: flex;
+    flex-direction: row;
+}
 #menu ul,
 #menu li {
     margin: 0 auto;
@@ -17,11 +23,16 @@
     width: 100%;
 }
 #menu li {
-    float: right;
-    display: inline;
+    /* float: right; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     position: relative;
+    z-index: 100;
 }
 #nav-logo{
+    float: left;
      width: 10rem;
     color: #edf0f1;
     cursor: pointer;
