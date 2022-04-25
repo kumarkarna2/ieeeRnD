@@ -188,12 +188,19 @@
         float: left; */
     }
 
+    #rnd-logo-scroll {
+
+        /* margin-bottom: 1rem; */
+        margin-left: 0.7rem;
+
+    }
+
     #menu a {
         text-align: center;
     }
 
     #nav-logo {
-        margin-top: 0.5rem;
+        margin-top: 0.1rem;
 
     }
 
