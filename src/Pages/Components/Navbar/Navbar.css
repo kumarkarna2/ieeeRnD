@@ -17,12 +17,12 @@
 
 #rnd-logo-scroll {
 
-    margin-bottom: 0.5rem;
-    margin-left: 7rem;
+    margin-left: 1rem;
 
 }
 
 #nav-logo {
+    margin-bottom: 0.5rem;
     display: inline;
 
 }
@@ -78,8 +78,7 @@
     color: #edf0f1;
     cursor: pointer;
     padding: 0.2rem;
-    /* margin-top: 0.5rem; */
-    /* padding-top: 0.7rem; */
+
 }
 
 #menu a {
@@ -172,12 +171,28 @@
 
 #link {
     font-size: 2rem;
-    margin: 0 4rem;
+    margin: 0 3.5rem;
     display: flex;
     gap: 1rem;
     flex-direction: row;
     cursor: pointer;
     padding: 0rem 2.5vw .15vw .5vw;
+}
+
+@media screen and (max-width: 1024px) {
+    #link {
+        padding: 0.1rem;
+        margin: auto;
+
+    }
+
+    #rnd-logo-scroll {
+
+        margin-bottom: 0.5rem;
+        margin-left: 0.4rem;
+
+    }
+
 }
 
 @media screen and (max-width: 768px) {
