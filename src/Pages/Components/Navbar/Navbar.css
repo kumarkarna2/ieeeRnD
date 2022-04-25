@@ -1,28 +1,39 @@
-.header{
-    z-index:550;
+.header {
+    z-index: 550;
     position: sticky;
     top: 0;
-    background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
+    background: linear-gradient(90deg, rgba(17, 100, 102, 1) 0%, rgba(144, 221, 255, 1) 100%);
 }
+
 .header.active {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(0.8rem);
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     width: auto;
 }
-.rnd-logo{
+
+#rnd-logo-scroll {
+
+    margin-bottom: 0.5rem;
     margin-left: 7rem;
-    display: inline;
-    margin-top: .45rem;
+
 }
-.rnd-logo :hover{
+
+#nav-logo {
+    display: inline;
+
+}
+
+#nav-logo :hover {
     transition: all 0.5;
     border-radius: 1rem;
     background-color: #116466;
     color: #d1e8e2;
 }
+
 #menu {
     /* background: transparent; */
     top: 0;
@@ -36,8 +47,9 @@
     height: 4.7rem;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
+
 #menu li {
     float: left;
     display: flex;
@@ -47,13 +59,15 @@
     position: relative;
     z-index: 100;
 }
-.font-links{
+
+.font-links {
     font-size: 2rem;
     /* line-height: 3.5rem; */
     margin-right: 1vw;
-    background: transparent ;
+    background: transparent;
 }
-.font-links .active{
+
+.font-links .active {
     color: #1ef4e5;
     border: 2px solid #5ff0d1;
 }
@@ -67,6 +81,7 @@
     /* margin-top: 0.5rem; */
     /* padding-top: 0.7rem; */
 }
+
 #menu a {
     display: block;
     /* line-height: 48px; */
@@ -76,20 +91,24 @@
     font-size: 1.2rem;
     font-weight: 400;
 }
+
 #menu a.dropdown-arrow:after {
     content: "\25BE";
     margin-left: 5px;
 }
+
 #menu li a:hover {
     transition: all 0.5;
     border-radius: 1rem;
     background-color: #116466;
     color: #d1e8e2;
 }
-#rnd-logo-scroll{
+
+#rnd-logo-scroll {
     margin-top: .4rem;
 
 }
+
 #menu #rnd-logo-scroll:hover {
     transition: all 0.5;
     padding-bottom: 0;
@@ -97,6 +116,7 @@
     background-color: #116466;
     color: #d1e8e2;
 }
+
 #menu input {
     display: none;
     margin: 0;
@@ -106,6 +126,7 @@
     opacity: 0;
     cursor: pointer;
 }
+
 #menu label {
     display: none;
     line-height: 48px;
@@ -113,11 +134,13 @@
     position: absolute;
     left: 35px;
 }
+
 #menu label:before {
     font-size: 1.6em;
     content: "\2261";
     margin-left: 20px;
 }
+
 #menu ul.sub-menus {
     height: auto;
     overflow: hidden;
@@ -127,54 +150,64 @@
     z-index: 1;
     display: none;
 }
+
 #menu ul.sub-menus li {
     display: block;
     width: 100%;
 }
+
 #menu ul.sub-menus a {
     color: #ffffff;
     font-size: 16px;
 }
+
 #menu li:hover ul.sub-menus {
     display: block;
 }
+
 #menu ul.sub-menus a:hover {
     background: #f2f2f2;
     color: #444444;
 }
+
 #link {
     font-size: 2rem;
-    margin:0 4rem;
+    margin: 0 4rem;
     display: flex;
     gap: 1rem;
     flex-direction: row;
     cursor: pointer;
     padding: 0rem 2.5vw .15vw .5vw;
 }
+
 @media screen and (max-width: 768px) {
-    .rnd-logo{
+    .rnd-logo {
         /* display:none; */
-        z-index:2000;
+        z-index: 2000;
         /* position: relative;
         float: left; */
     }
+
     #menu a {
         text-align: center;
     }
-    #nav-logo{
+
+    #nav-logo {
         margin-top: 0.5rem;
-        
+
     }
+
     #menu {
         position: relative;
     }
+
     #menu ul {
-        background: rgba( 4, 203, 250, 0.5 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 8.5px );
--webkit-backdrop-filter: blur( 8.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+        background: rgba(4, 203, 250, 0.5);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(8.5px);
+        -webkit-backdrop-filter: blur(8.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
         position: absolute;
         top: 100%;
         right: 0;
@@ -183,24 +216,28 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         height: auto;
         display: none;
     }
+
     #menu ul.sub-menus {
         width: 100%;
         position: static;
     }
+
     #menu ul.sub-menus a {
         padding-left: 30px;
     }
+
     #menu li {
         padding: 0.9rem;
         display: block;
         float: none;
         width: auto;
-        border-bottom: 1px white solid ;
+        border-bottom: 1px white solid;
     }
+
     #menu li:nth-child(6) {
         border-bottom: none;
     }
-    
+
     #menu input,
     #menu label {
         position: absolute;
@@ -210,16 +247,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         /* float: right; */
         justify-content: flex-end;
     }
+
     #menu input {
         z-index: 4;
     }
-    #menu input:checked + label {
+
+    #menu input:checked+label {
         color: white;
     }
-    #menu input:checked + label:before {
+
+    #menu input:checked+label:before {
         content: "\00d7";
     }
-    #menu input:checked ~ ul {
+
+    #menu input:checked~ul {
         display: block;
     }
 }
