@@ -51,8 +51,8 @@ export default function Navibar() {
       <nav id="menu">
         <input type="checkbox" id="responsive-menu" onclick="updatemenu()" />
         <label />
-        <ul className='rnd-logo'>
-          <li>
+        {/* <ul className='rnd-logo'>
+          <li> */}
             <Link
               onClick={() => scroll.scrollToTop()} 
               className='nav-links' 
@@ -61,8 +61,8 @@ export default function Navibar() {
             >
               <img src={IEEE} alt="IEEE" id="nav-logo" />
             </Link>
-          </li>
-        </ul>
+          {/* </li>
+        </ul> */}
         <ul id="link">
           <li className='nav-links'>
             <Link

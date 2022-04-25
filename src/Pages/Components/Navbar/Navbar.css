@@ -136,11 +136,26 @@
     padding: 0rem 2.5vw .15vw .5vw;
 }
 @media screen and (max-width: 768px) {
+    .rnd-logo{
+        /* display:none; */
+        z-index:2000;
+        /* position: relative;
+        float: left; */
+    }
+    #nav-logo{
+        margin-top: 0.5rem;
+
+    }
     #menu {
         position: relative;
     }
     #menu ul {
-        background: #111;
+        background: rgba( 4, 203, 250, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
         position: absolute;
         top: 100%;
         right: 0;
@@ -157,16 +172,24 @@
         padding-left: 30px;
     }
     #menu li {
+        padding: 0.9rem;
         display: block;
         float: none;
         width: auto;
+        border-bottom: 1px white solid ;
     }
+    #menu li:nth-child(6) {
+        border-bottom: none;
+    }
+    
     #menu input,
     #menu label {
         position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
+        top: 0.7rem;
+        display: flex;
+        right: 2rem;
+        /* float: right; */
+        justify-content: flex-end;
     }
     #menu input {
         z-index: 4;
