@@ -47,7 +47,7 @@ export default function Navibar() {
 
   const handleClick = () => setClick(!click);
   return (
-    <div>
+    <div className={header?"header active":"header"}>
       <nav id="menu">
         <input type="checkbox" id="responsive-menu" onclick="updatemenu()" />
         <label />
@@ -66,8 +66,8 @@ export default function Navibar() {
         <ul id="link">
           <li className='nav-links'>
             <Link
-              to="/"
-              id="about"
+              to='about'
+              className="font-links"
               activeClassName="active"
               onClick={handleClick}
               spy={true}
@@ -80,10 +80,10 @@ export default function Navibar() {
           </li>
           <li>
             <Link
-              to="schedule-section-heading"
-              className="nav-links"
+              to="/"
+              className="font-links"
               activeClassName="active"
-              // onClick={handleClick}
+              onClick={handleClick}
               spy={true}
               smooth={true}
               offset={-70}
@@ -95,9 +95,9 @@ export default function Navibar() {
           <li>
             <Link
               to="events-section"
-              className="nav-links"
+              className="font-links"
               activeClassName="active"
-              // onClick={handleClick}
+              onClick={handleClick}
               spy={true}
               smooth={true}
               offset={-80}
@@ -109,9 +109,9 @@ export default function Navibar() {
           <li>
             <Link
               to="/sponsors"
-              className="nav-links"
+              className="font-links"
               activeClassName="active"
-              // onClick={handleClick}
+              onClick={handleClick}
               // onClick={() => scroll.scrollToTop()}
               spy={true}
               smooth={true}
@@ -124,9 +124,9 @@ export default function Navibar() {
           <li>
             <Link
               to="/team"
-              className="nav-links"
+              className="font-links"
               activeClassName="active"
-              // onClick={handleClick}
+              onClick={handleClick}
               // onClick={() => scroll.scrollToTop()}
               spy={true}
               smooth={true}
@@ -139,10 +139,10 @@ export default function Navibar() {
           <li>
             <Link
               to="/contact"
-              className="contact-button"
+              className="font-links"
               activeClassName="active"
               // onClick={() => scroll.scrollToTop()}
-              // onClick={handleClick}
+              onClick={handleClick}
               spy={true}
               smooth={true}
               offset={50}

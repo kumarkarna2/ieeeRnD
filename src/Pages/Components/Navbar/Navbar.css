@@ -1,23 +1,37 @@
+.header{
+    z-index:150;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
+
+}
+.header .active{
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(0.8rem);
+}
 .nav-links{
     display: flex;
     width: auto;
 }
 .rnd-logo{
+    margin-left: 7rem;
     display: inline;
+    margin-top: .45rem;
 }
 #menu {
+    /* background: transparent; */
     top: 0;
-    z-index: 120;
+    z-index: 2;
     position: sticky;
-    background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
     color: #fff;
-    height: 48px;
+    /* height: 48px; */
     padding-left: 18px;
+    /* font-size: 2rem; */
     border-radius: 0px;
     height: 4.7rem;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 #menu li {
     float: left;
@@ -28,32 +42,34 @@
     position: relative;
     z-index: 100;
 }
-.nav-links{
+.font-links{
+    font-size: 2rem;
     /* line-height: 3.5rem; */
     margin-right: 1vw;
     background: transparent ;
 }
-.nav-links :active{
+.font-links .active{
     color: #1ef4e5;
-    border: 1px solid #5ff0d1;
+    border: 2px solid #5ff0d1;
 }
 
 #nav-logo {
     float: left;
-    width: 11rem;
+    width: 10rem;
     color: #edf0f1;
     cursor: pointer;
     padding: 0.2rem;
-    /* margin-left: 2rem; */
-    padding-top: 0.5rem;
+    /* margin-top: 0.5rem; */
+    /* padding-top: 0.7rem; */
 }
 #menu a {
     display: block;
-    line-height: 48px;
-    padding: 0 14px;
+    /* line-height: 48px; */
+    padding: 0 0.5vw .15vw .5vw;
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 #menu a.dropdown-arrow:after {
     content: "\25BE";
@@ -92,7 +108,7 @@
     width: 170px;
     background: #444444;
     position: absolute;
-    z-index: 99;
+    z-index: 1;
     display: none;
 }
 #menu ul.sub-menus li {
@@ -111,13 +127,15 @@
     color: #444444;
 }
 #link {
+    font-size: 2rem;
     margin:0 4rem;
     display: flex;
+    gap: 1rem;
     flex-direction: row;
     cursor: pointer;
-    padding: 0rem .5vw .15vw .5vw;
+    padding: 0rem 2.5vw .15vw .5vw;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #menu {
         position: relative;
     }
