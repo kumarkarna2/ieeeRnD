@@ -158,9 +158,12 @@
         /* position: relative;
         float: left; */
     }
+    #menu a {
+        text-align: center;
+    }
     #nav-logo{
         margin-top: 0.5rem;
-
+        
     }
     #menu {
         position: relative;

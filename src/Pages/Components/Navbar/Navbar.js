@@ -3,6 +3,7 @@ import "./Navbar.css";
 import IEEE from "./Images/IEEE-JUIT(white).png";
 import { Link } from "react-router-dom";
 import {animateScroll as scroll} from 'react-scroll';
+import {Link as LNK} from 'react-scroll';
 
 
 import {
@@ -66,7 +67,7 @@ export default function Navibar() {
         </ul> */}
         <ul id="link">
           <li className='nav-links'>
-            <Link
+            <LNK
               to='about'
               className="font-links"
               activeClassName="active"
@@ -77,11 +78,11 @@ export default function Navibar() {
               duration={100}
             >
               About
-            </Link>
+            </LNK>
           </li>
           <li>
-            <Link
-              to="/"
+            <LNK
+              to="schedule"
               className="font-links"
               activeClassName="active"
               onClick={handleClick}
@@ -91,21 +92,21 @@ export default function Navibar() {
               duration={100}
             >
               Schedule
-            </Link>
+            </LNK>
           </li>
           <li>
-            <Link
-              to="events-section"
+            <LNK
+              to="events"
               className="font-links"
               activeClassName="active"
               onClick={handleClick}
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-82}
               duration={100}
             >
               Events
-            </Link>
+            </LNK>
           </li>
           <li>
             <Link

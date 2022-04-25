@@ -16,6 +16,7 @@ function App() {
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="team" element={<Team />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="sponsors" element={<Sponsors />} />
         </Routes>
       </BrowserRouter>
     </div>
