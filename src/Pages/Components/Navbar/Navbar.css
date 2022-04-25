@@ -4,7 +4,7 @@
     top: 0;
     background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
 }
-.header .active{
+.header.active {
     background: rgba(0,0,0,0.6);
     backdrop-filter: blur(0.8rem);
 }
