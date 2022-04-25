@@ -56,6 +56,7 @@ export default function Navibar() {
             <Link
               onClick={() => scroll.scrollToTop()} 
               className='nav-links' 
+              id="rnd-logo-scroll"
               activeClassName='active' 
               to='/'
             >

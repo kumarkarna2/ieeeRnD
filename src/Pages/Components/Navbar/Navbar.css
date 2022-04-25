@@ -1,9 +1,8 @@
 .header{
-    z-index:150;
+    z-index:550;
     position: sticky;
     top: 0;
     background: linear-gradient(90deg, rgba(17,100,102,1) 0%, rgba(144,221,255,1) 100%);
-
 }
 .header .active{
     background: rgba(0,0,0,0.6);
@@ -17,6 +16,12 @@
     margin-left: 7rem;
     display: inline;
     margin-top: .45rem;
+}
+.rnd-logo :hover{
+    transition: all 0.5;
+    border-radius: 1rem;
+    background-color: #116466;
+    color: #d1e8e2;
 }
 #menu {
     /* background: transparent; */
@@ -77,6 +82,17 @@
 }
 #menu li a:hover {
     transition: all 0.5;
+    border-radius: 1rem;
+    background-color: #116466;
+    color: #d1e8e2;
+}
+#rnd-logo-scroll{
+    margin-top: .4rem;
+
+}
+#menu #rnd-logo-scroll:hover {
+    transition: all 0.5;
+    padding-bottom: 0;
     border-radius: 1rem;
     background-color: #116466;
     color: #d1e8e2;
