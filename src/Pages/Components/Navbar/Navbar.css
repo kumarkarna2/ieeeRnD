@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
 }
-#link{
+#link {
     display: flex;
     flex-direction: row;
 }
@@ -23,7 +23,7 @@
     width: 100%;
 }
 #menu li {
-    /* float: right; */
+    float: left;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -31,13 +31,14 @@
     position: relative;
     z-index: 100;
 }
-#nav-logo{
+#nav-logo {
     float: left;
-     width: 10rem;
+    width: 10rem;
     color: #edf0f1;
     cursor: pointer;
     padding: 0.2rem;
-   
+    margin-left: 2rem;
+    padding-top: 0.5rem;
 }
 #menu a {
     display: block;
