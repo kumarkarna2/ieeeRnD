@@ -31,6 +31,7 @@ import vishu from "./images/vishu.jpg";
 import vishruti from "./images/vishruti.jpg";
 import yash from "./images/yash.jpeg";
 import adityas from "./council/aditya.jpg";
+import avinash from "./council/avinash.png";
 import akshat from "./council/akshat.jpg";
 import ananya from "./council/ananya.jpg";
 import anushka from "./council/anushka.jpg";
@@ -43,6 +44,10 @@ import raven from "./council/raven.png";
 import ravi from "./council/ravi.jpg";
 import ritika from "./council/ritika.jpg";
 import shaan from "./council/shaan2.jpg";
+import saksham from "./council/saksham.png";
+import shruti from "./council/Shruti.jpeg";
+import sunil from "./council/Sunill.jpeg";
+import yugal from "./council/Yugal.jpg";
 
 export default function Team() {
     return (
@@ -54,30 +59,36 @@ export default function Team() {
                     <div className="web-team">Faculty Coordinator</div>
                     <div className="team-card-section">
                         <TeamCard
-                            img={arpit}
-                            alt="Arpit Kaushal"
-                            name="Arpit Kaushal"
-                            insta="//www.instagram.com/general.broda/"
+                            img={shruti}
+                            alt="Dr. Shruti Jain"
+                            name="Dr. Shruti Jain"
+                            insta=""
                         />
                         <TeamCard
-                            img={om}
-                            alt="Om Hari Shukla"
-                            name="Om Hari Shukla"
-                            insta="//www.instagram.com/Call__me__hades__/"
+                            img={sunil}
+                            alt="Sunil Kumar Khah"
+                            name="Sunil Kumar Khah"
+                            insta=""
+                        />
+                        <TeamCard
+                            img={yugal}
+                            alt="Yugal Kishor"
+                            name="Yugal Kishor"
+                            insta=""
                         />
                     </div>
                     <div className="web-team">Mentors</div>
                     <div className="team-card-section">
                         <TeamCard
-                            img={arpit}
-                            alt="Arpit Kaushal"
-                            name="Arpit Kaushal"
+                            img={avinash}
+                            alt="Avinash Verma"
+                            name="Avinash Verma"
                             insta="//www.instagram.com/general.broda/"
                         />
                         <TeamCard
-                            img={om}
-                            alt="Om Hari Shukla"
-                            name="Om Hari Shukla"
+                            img={saksham}
+                            alt="Saksham Varma"
+                            name="Saksham Varma"
                             insta="//www.instagram.com/Call__me__hades__/"
                         />
                     </div>
@@ -187,7 +198,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={hridhima}
@@ -296,7 +307,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={isha}
@@ -390,7 +401,7 @@ export default function Team() {
                             img={anny}
                             alt="Ananya Dhangar "
                             name="Ananya Dhangar "
-                            insta=""
+                            insta="//www.linkedin.com/in/ananya-dhangar-826465220"
                         />
                         <TeamCard
                             img={vipul}
@@ -492,7 +503,7 @@ export default function Team() {
                             img={anny}
                             alt="Ananya Dhangar "
                             name="Ananya Dhangar "
-                            insta=""
+                            insta="//www.linkedin.com/in/ananya-dhangar-826465220"
                         />
                         <TeamCard
                             img={vipul}
@@ -593,7 +604,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={gurleen}
