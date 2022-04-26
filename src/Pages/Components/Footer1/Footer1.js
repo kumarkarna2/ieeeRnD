@@ -28,7 +28,7 @@ function Footer1() {
                                 <strong>
                                     Phone: +91-7082787975
                                     <br />
-                                    Email: ieee.juits@juitsolan.in
+                                    Email: ieee.juit@juitsolan.in
                                 </strong>
                                 <br />
                             </div>

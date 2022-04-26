@@ -1,0 +1,20 @@
+.events-section-page{
+        background: linear-gradient(-45deg, #44ac8b, #5f3d8c, #5a97ab, #bdaf7f);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        display: flex;
+        justify-content: center;
+        height: 140vh;
+        align-items: center;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
