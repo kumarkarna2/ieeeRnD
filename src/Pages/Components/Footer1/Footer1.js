@@ -42,14 +42,14 @@ function Footer1() {
                                     <FaInstagram />
                                 </Link>
                                 <Link
-                                    to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
+                                    to="//www.youtube.com/channel/UCt2lCwQLTV-LxwUu09ptM9Q"
                                     target={"_blank"}
                                     className="you"
                                 >
                                     <FaYoutube />
                                 </Link>
                                 <Link
-                                    to="//instagram.com/jyc.technical.club?utm_medium=copy_link"
+                                    to="//www.linkedin.com/company/ieeejuit/"
                                     target={"_blank"}
                                     className="in"
                                 >
