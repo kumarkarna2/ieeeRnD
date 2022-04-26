@@ -55,7 +55,9 @@ export default function Events() {
                 <EventsCard
                     img={velocity}
                     title="Velocity"
-                    desc=""
+                    desc="Velocity will be a team event, the team must consist of two members. It will be divided in 2 rounds
+                    The first round will consist of Bug fixing and Blind Coding.
+                    The teammates will have to decide amongst themselves ..."
                     link="/event5"
                 />{" "}
                 <EventsCard

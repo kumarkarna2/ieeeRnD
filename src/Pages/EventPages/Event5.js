@@ -12,7 +12,12 @@ export default function Event5() {
         <EventPageCard
         className="event-desc-card"
           img={velocity}
-          desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting."
+          desc="Velocity will be a team event, the team must consist of two members. It will be divided in 2 rounds
+          The first round will consist of Bug fixing and Blind Coding.
+          The teammates will have to decide amongst themselves that which of the teammates will go for which domain. 
+          Then the teammates will be sent to two different rooms to solve the given problems.
+          When they will solve the above mentioned rounds then they will gather in a common place and solve the Final coding round.
+          It is all dependent on time so the faster you solve, the closer you are to winning !"
           reglink=""
         />
       </div>
