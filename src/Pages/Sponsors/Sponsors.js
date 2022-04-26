@@ -47,7 +47,7 @@ export default function Sponsors() {
                         link="//www.jetbrains.com/"
                         img={jb}
                         alt="Jet Brains"
-                        spname="Ace Engineering Academy"
+                        spname="Jet Brains"
                     />
                     <SponsorsCard
                         link="//www.taskade.com/"
@@ -59,13 +59,13 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Hosting Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="//digitalwebdia.com/"
                         img={db}
                         alt="DigitalWebdia"
                         spname="DigitalWebdia"
                     />
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="//vapourhost.com/"
                         img={vh}
                         alt="VapourHost"
                         spname="VapourHost"
@@ -74,16 +74,16 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Media Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="//www.startupnews.fyi/"
                         img={sn}
-                        alt="DigitalWebdia"
-                        spname="DigitalWebdia"
+                        alt="startupnews"
+                        spname="startupnews"
                     />
                 </div>
                 <div className="sponsors-heading">Streaming Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="//streamyard.com/"
                         img={sy}
                         alt="StreamYard"
                         spname="StreamYard"
@@ -94,16 +94,16 @@ export default function Sponsors() {
                 </div>
                 <div className="sponsors-section">
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="/"
                         img={cc}
-                        alt="StreamYard"
-                        spname="StreamYard"
+                        alt="Corner Cafe"
+                        spname="Corner Cafe"
                     />
                     <SponsorsCard
-                        link="//thecareerlabs.com//"
+                        link="/"
                         img={ls}
-                        alt="StreamYard"
-                        spname="StreamYard"
+                        alt="Little Sicily"
+                        spname="Little Sicily"
                     />
                 </div>
             </div>

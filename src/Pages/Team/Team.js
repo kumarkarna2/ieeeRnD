@@ -169,7 +169,7 @@ export default function Team() {
                             img={karna}
                             alt="Karna Kumar Chaudhary"
                             name="karna Kumar Chaudhary"
-                            insta="//www.linkedin.com/mwlite/in/kumarkarna2"
+                            insta="//www.linkedin.com/in/kumarkarna2"
                         />
                         <TeamCard
                             img={Mayank}
@@ -181,7 +181,7 @@ export default function Team() {
                             img={aditya}
                             alt="Mayank"
                             name="Aditya Sahni"
-                            insta="//www.instagram.com/i.e_aditya/"
+                            insta="//www.linkedin.com/in/aditya-sahni-58203420a"
                         />
                         <TeamCard
                             img={gunjan}
@@ -244,7 +244,8 @@ export default function Team() {
                             img={arnav}
                             alt="Arnav Seth"
                             name="Arnav Seth"
-                            insta="//www.instagram.com/arnavsethh/"
+                            insta="//www.linkedin.com/in/arnav-seth-a77929211
+"
                         />
                         <TeamCard
                             img={isha}
@@ -256,25 +257,25 @@ export default function Team() {
                             img={vansh}
                             alt="Vansh Gulati"
                             name="Vansh Gulati"
-                            insta="//www.instagram.com/Unsanskari_bachha/"
+                            insta="//www.linkedin.com/in/vansh-gulati-8a0676215"
                         />
                         <TeamCard
                             img={rao}
                             alt="Anant Rao"
                             name="Anant Rao"
-                            insta="//www.instagram.com/_rao.sahab_/"
+                            insta="//www.linkedin.com/in/anant-rao-437a121b9"
                         />
                         <TeamCard
                             img={karna}
                             alt="Karna Kumar Chaudhary"
                             name="karna Kumar Chaudhary"
-                            insta="//www.instagram.com/kumarkarna2/"
+                            insta="//www.linkedin.com/in/kumarkarna2"
                         />
                         <TeamCard
                             img={angel}
                             alt="Angel Singh"
                             name="Angel Singh"
-                            insta="//www.instagram.com/1aangie/"
+                            insta="//www.linkedin.com/in/angel-singh"
                         />
                         <TeamCard
                             img={gurleen}
@@ -307,7 +308,8 @@ export default function Team() {
                             img={arnav}
                             alt="Arnav Seth"
                             name="Arnav Seth"
-                            insta="//www.instagram.com/arnavsethh/"
+                            insta="//www.linkedin.com/in/arnav-seth-a77929211
+"
                         />
                         <TeamCard
                             img={modi}
@@ -325,19 +327,19 @@ export default function Team() {
                             img={vansh}
                             alt="Vansh Gulati"
                             name="Vansh Gulati"
-                            insta="//www.instagram.com/Unsanskari_bachha/"
+                            insta="//www.linkedin.com/in/vansh-gulati-8a0676215"
                         />
                         <TeamCard
                             img={rao}
                             alt="Anant Rao"
                             name="Anant Rao"
-                            insta="//www.instagram.com/_rao.sahab_/"
+                            insta="//www.linkedin.com/in/anant-rao-437a121b9"
                         />
                         <TeamCard
                             img={angel}
                             alt="Angel Singh"
                             name="Angel Singh"
-                            insta="//www.instagram.com/1aangie/"
+                            insta="//www.linkedin.com/in/angel-singh"
                         />
                         <TeamCard
                             img={gurleen}
@@ -364,7 +366,7 @@ export default function Team() {
                             img={arpit}
                             alt="Arpit Kaushal"
                             name="Arpit Kaushal"
-                            insta="//www.instagram.com/general.broda/"
+                            insta="//www.linkedin.com/in/arpit-kaushal-133a911bb"
                         />
                         <TeamCard
                             img={om}
@@ -439,13 +441,13 @@ export default function Team() {
                             img={rao}
                             alt="Anant Rao"
                             name="Anant Rao"
-                            insta="//www.instagram.com/_rao.sahab_/"
+                            insta="//www.linkedin.com/in/anant-rao-437a121b9"
                         />
                         <TeamCard
                             img={angel}
                             alt="Angel Singh"
                             name="Angel Singh"
-                            insta="//www.instagram.com/1aangie/"
+                            insta="//www.linkedin.com/in/angel-singh"
                         />
                         <TeamCard
                             img={yash}
@@ -472,7 +474,7 @@ export default function Team() {
                             img={arpit}
                             alt="Arpit Kaushal"
                             name="Arpit Kaushal"
-                            insta="//www.instagram.com/general.broda/"
+                            insta="//www.linkedin.com/in/arpit-kaushal-133a911bb"
                         />
                         <TeamCard
                             img={manav}
@@ -502,7 +504,7 @@ export default function Team() {
                             img={angel}
                             alt="Angel Singh"
                             name="Angel Singh"
-                            insta="//www.instagram.com/1aangie/"
+                            insta="//www.linkedin.com/in/angel-singh"
                         />
                         <TeamCard
                             img={geetali}
@@ -530,19 +532,19 @@ export default function Team() {
                             img={rao}
                             alt="Anant Rao"
                             name="Anant Rao"
-                            insta="//www.instagram.com/_rao.sahab_/"
+                            insta="//www.linkedin.com/in/anant-rao-437a121b9"
                         />
                         <TeamCard
                             img={karna}
                             alt="Karna Kumar Chaudhary"
                             name="karna Kumar Chaudhary"
-                            insta="//www.instagram.com/kumarkarna2/"
+                            insta="www.linkedin.com/in/kumarkarna2"
                         />
                         <TeamCard
                             img={aditya}
                             alt="Mayank"
                             name="Aditya Sahni"
-                            insta="//www.instagram.com/i.e_aditya/"
+                            insta="//www.linkedin.com/in/aditya-sahni-58203420a"
                         />
                     </div>
                     <div className="web-team">IoT Team</div>
@@ -578,7 +580,8 @@ export default function Team() {
                             img={arnav}
                             alt="Arnav Seth"
                             name="Arnav Seth"
-                            insta="//www.instagram.com/arnavsethh/"
+                            insta="//www.linkedin.com/in/arnav-seth-a77929211
+"
                         />
                         <TeamCard
                             img={geetali}
