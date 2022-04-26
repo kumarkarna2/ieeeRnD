@@ -1,4 +1,17 @@
 .landing-below{
-    background: rgb(6,23,27);
-background: linear-gradient(90deg, rgba(6,23,27,1) 0%, rgba(56,168,171,1) 39%, rgba(51,182,190,1) 67%, rgba(6,23,27,1) 100%);
+    background: linear-gradient(-45deg, #44ac8b, #5f3d8c, #5a97ab, #bdaf7f);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

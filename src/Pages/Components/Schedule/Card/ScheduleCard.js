@@ -48,17 +48,16 @@ export default function ScheduleCard(parse) {
                         <div className="line-schedule" />
 
                         <div className="list-item">{parse.event3}</div>
-                        {/* <hr></hr>
-
+                        <div className="line-schedule" />
             <div className="list-item">
               {parse.event4}
             </div>
 
-            <hr></hr>
+            {/* <hr></hr>
 
             <div className="list-item">
               {parse.event5}
-            </div> */}
+            </div>  */}
                     </div>
                 </div>
             </div>
