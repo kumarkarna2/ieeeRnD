@@ -49,7 +49,38 @@ export default function Team() {
         <div>
             <NaviBar />
             <div className="team-page">
+                <div className="team">Our Team</div>
                 <div className="team-section">
+                    <div className="web-team">Faculty Coordinator</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arpit}
+                            alt="Arpit Kaushal"
+                            name="Arpit Kaushal"
+                            insta="//www.instagram.com/general.broda/"
+                        />
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                    </div>
+                    <div className="web-team">Mentors</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arpit}
+                            alt="Arpit Kaushal"
+                            name="Arpit Kaushal"
+                            insta="//www.instagram.com/general.broda/"
+                        />
+                        <TeamCard
+                            img={om}
+                            alt="Om Hari Shukla"
+                            name="Om Hari Shukla"
+                            insta="//www.instagram.com/Call__me__hades__/"
+                        />
+                    </div>
                     <div className="web-team">Council</div>
                     <div className="team-card-section">
                         <TeamCard
@@ -63,6 +94,18 @@ export default function Team() {
                             alt="Geetansh Garg"
                             name="Geetansh Garg"
                             insta="https://www.instagram.com/garggeetansh011/"
+                        />
+                        <TeamCard
+                            img={anushka}
+                            alt="Anushka Singh"
+                            name="Anushka Singh"
+                            insta="https://www.instagram.com/_anushka_singh_0_7/"
+                        />
+                        <TeamCard
+                            img={nandini}
+                            alt="Nandini Singh"
+                            name="Nandini Singh"
+                            insta="https://www.instagram.com/nandini0842/"
                         />
                         <TeamCard
                             img={ravi}
@@ -112,18 +155,7 @@ export default function Team() {
                             name="Raven Mehta"
                             insta="https://www.instagram.com/xll_raven_mehta_llx/"
                         />
-                        <TeamCard
-                            img={anushka}
-                            alt="Anushka Singh"
-                            name="Anushka Singh"
-                            insta="https://www.instagram.com/_anushka_singh_0_7/"
-                        />
-                        <TeamCard
-                            img={nandini}
-                            alt="Nandini Singh"
-                            name="Nandini Singh"
-                            insta="https://www.instagram.com/nandini0842/"
-                        />
+
                         <TeamCard
                             img={ritika}
                             alt="Ritika Tiwari"
@@ -137,7 +169,7 @@ export default function Team() {
                             img={karna}
                             alt="Karna Kumar Chaudhary"
                             name="karna Kumar Chaudhary"
-                            insta="//www.instagram.com/kumarkarna2/"
+                            insta="//www.linkedin.com/mwlite/in/kumarkarna2"
                         />
                         <TeamCard
                             img={Mayank}
@@ -538,6 +570,45 @@ export default function Team() {
                             alt="Yashvardhan Sharma"
                             name="Yashvardhan Sharma"
                             insta="//www.instagram.com/261vardhan/"
+                        />
+                    </div>
+                    <div className="web-team">PR Team</div>
+                    <div className="team-card-section">
+                        <TeamCard
+                            img={arnav}
+                            alt="Arnav Seth"
+                            name="Arnav Seth"
+                            insta="//www.instagram.com/arnavsethh/"
+                        />
+                        <TeamCard
+                            img={geetali}
+                            alt="Geetali Goel "
+                            name="Geetali Goel "
+                            insta="//www.instagram.com/geetali_goel/"
+                        />
+                        <TeamCard
+                            img={gunjan}
+                            alt="Gunjan Verma"
+                            name="Gunjan Verma"
+                            insta="//www.instagram.com/gunjanxv/"
+                        />
+                        <TeamCard
+                            img={gurleen}
+                            alt="Gurleen Kaur"
+                            name="Gurleen Kaur"
+                            insta="//www.instagram.com/neeti153/"
+                        />
+                        <TeamCard
+                            img={isha}
+                            alt="Isha Rawat"
+                            name="Isha Rawat"
+                            insta="//www.instagram.com/isha__rwtt/"
+                        />
+                        <TeamCard
+                            img={vishruti}
+                            alt="Vishruti Sharma"
+                            name="Vishruti Sharma "
+                            insta="//www.instagram.com/vishruti_sharma_/"
                         />
                     </div>
                 </div>

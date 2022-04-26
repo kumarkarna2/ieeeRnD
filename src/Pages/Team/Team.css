@@ -11,7 +11,13 @@
     );
     align-items: center;
 }
-
+.team{
+    text-align: center;
+    font-size: 5rem;
+        font-family: "Arial ROUNDED mt",
+        sans-serif;
+        color: rgb(72, 67, 67);
+}
 .team-section {
     align-items: center;
     gap: 4rem;

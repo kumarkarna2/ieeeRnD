@@ -23,16 +23,19 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Event Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//www.aceenggacademy.com/"
                         img={ace}
                         alt="Ace Engineering Academy"
                         spname="Ace Engineering Academy"
                     />
                     <SponsorsCard
+                        link="//thecareerlabs.com/"
                         img={cl}
                         alt="Career Labs"
                         spname="Career Labs"
                     />
                     <SponsorsCard
+                        link="//collegepond.com/"
                         img={cp}
                         alt="Collage Pond"
                         spname="Collage Pond"
@@ -41,20 +44,28 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Associate Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//www.jetbrains.com/"
                         img={jb}
                         alt="Jet Brains"
                         spname="Ace Engineering Academy"
                     />
-                    <SponsorsCard img={ta} alt="Taskade" spname="Taskade" />
+                    <SponsorsCard
+                        link="//www.taskade.com/"
+                        img={ta}
+                        alt="Taskade"
+                        spname="Taskade"
+                    />
                 </div>
                 <div className="sponsors-heading">Hosting Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={db}
                         alt="DigitalWebdia"
                         spname="DigitalWebdia"
                     />
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={vh}
                         alt="VapourHost"
                         spname="VapourHost"
@@ -63,6 +74,7 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Media Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={sn}
                         alt="DigitalWebdia"
                         spname="DigitalWebdia"
@@ -71,22 +83,24 @@ export default function Sponsors() {
                 <div className="sponsors-heading">Streaming Partner</div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={sy}
                         alt="StreamYard"
                         spname="StreamYard"
                     />
-                </div>{" "}
-                <div className="sponsors-heading">Eating Partner</div>
+                </div>
+                <div className="sponsors-heading">
+                    Eating & Beverage Partner
+                </div>
                 <div className="sponsors-section">
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={cc}
                         alt="StreamYard"
                         spname="StreamYard"
                     />
-                </div>
-                <div className="sponsors-heading">beverage Partner</div>
-                <div className="sponsors-section">
                     <SponsorsCard
+                        link="//thecareerlabs.com//"
                         img={ls}
                         alt="StreamYard"
                         spname="StreamYard"

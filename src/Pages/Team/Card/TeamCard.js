@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import "./TeamCard.css";
 
 export default function TeamCard(parse) {
@@ -16,7 +16,7 @@ export default function TeamCard(parse) {
                             target={"_blank"}
                             className="instagram"
                         >
-                            <FaInstagram />
+                            <FaLinkedin />
                         </Link>
                     </div>
                 </div>

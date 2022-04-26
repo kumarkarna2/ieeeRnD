@@ -39,8 +39,16 @@
     /* padding: 0; */
     /* font-weight: 200; */
 }
+
 .instagram {
-    color: #bc2a8d;
-    font-size: 2rem;
+    color: #045a88;
+    text-decoration: none;
+    padding: 0 0.7vw;
     text-align: center;
+    font-size: 2rem;
+    animation: float 4s ease-in-out infinite;
+}
+
+.insta :hover {
+    color: rgb(223, 223, 223);
 }
