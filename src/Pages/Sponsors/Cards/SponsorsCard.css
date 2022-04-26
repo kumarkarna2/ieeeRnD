@@ -16,9 +16,11 @@
 .sponsors-image img {
     width: 14rem;
     height: 14rem;
+    border-radius: 1rem;
 }
 .sponsor-name {
     font-size: 2rem;
+    width: 14rem;
     padding: 0rem 0.5rem 0.5rem 0.5rem;
     /* background: rgba(0, 0, 0, 0.35); */
     /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */

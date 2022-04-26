@@ -8,9 +8,9 @@ export default function SponsorsCard(parse) {
         <div className="sponsors-image">
           <img src={parse.img} alt={parse.alt} />
         </div>
-        <div className="sponsor-name">
+        {/* <div className="sponsor-name">
             {parse.spname}
-        </div>
+        </div> */}
       </div>
     </div>
   );
