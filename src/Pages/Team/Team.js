@@ -31,6 +31,7 @@ import vishu from "./images/vishu.jpg";
 import vishruti from "./images/vishruti.jpg";
 import yash from "./images/yash.jpeg";
 import adityas from "./council/aditya.jpg";
+import avinash from "./council/avinash.png";
 import akshat from "./council/akshat.jpg";
 import ananya from "./council/ananya.jpg";
 import anushka from "./council/anushka.jpg";
@@ -43,6 +44,10 @@ import raven from "./council/raven.png";
 import ravi from "./council/ravi.jpg";
 import ritika from "./council/ritika.jpg";
 import shaan from "./council/shaan2.jpg";
+import saksham from "./council/saksham.png";
+import shruti from "./council/Shruti.jpeg";
+import sunil from "./council/Sunill.jpeg";
+import yugal from "./council/Yugal.jpg";
 
 export default function Team() {
     return (
@@ -54,30 +59,36 @@ export default function Team() {
                     <div className="web-team">Faculty Coordinator</div>
                     <div className="team-card-section">
                         <TeamCard
-                            img={arpit}
-                            alt="Arpit Kaushal"
-                            name="Arpit Kaushal"
-                            insta="//www.instagram.com/general.broda/"
+                            img={shruti}
+                            alt="Dr. Shruti Jain"
+                            name="Dr. Shruti Jain"
+                            insta=""
                         />
                         <TeamCard
-                            img={om}
-                            alt="Om Hari Shukla"
-                            name="Om Hari Shukla"
-                            insta="//www.instagram.com/Call__me__hades__/"
+                            img={sunil}
+                            alt="Sunil Kumar Khah"
+                            name="Sunil Kumar Khah"
+                            insta=""
+                        />
+                        <TeamCard
+                            img={yugal}
+                            alt="Yugal Kishor"
+                            name="Yugal Kishor"
+                            insta=""
                         />
                     </div>
                     <div className="web-team">Mentors</div>
                     <div className="team-card-section">
                         <TeamCard
-                            img={arpit}
-                            alt="Arpit Kaushal"
-                            name="Arpit Kaushal"
+                            img={avinash}
+                            alt="Avinash Verma"
+                            name="Avinash Verma"
                             insta="//www.instagram.com/general.broda/"
                         />
                         <TeamCard
-                            img={om}
-                            alt="Om Hari Shukla"
-                            name="Om Hari Shukla"
+                            img={saksham}
+                            alt="Saksham Varma"
+                            name="Saksham Varma"
                             insta="//www.instagram.com/Call__me__hades__/"
                         />
                     </div>
@@ -87,80 +98,80 @@ export default function Team() {
                             img={pushp}
                             alt="Pushp Jain"
                             name="Pushp Jain"
-                            insta="https://www.instagram.com/_pushp_jain_/"
+                            insta="//www.linkedin.com/in/pushp-jain-850a771b0"
                         />
                         <TeamCard
                             img={geetansh}
                             alt="Geetansh Garg"
                             name="Geetansh Garg"
-                            insta="https://www.instagram.com/garggeetansh011/"
+                            insta="//www.linkedin.com/in/geetansh-garg-69641a19b"
                         />
                         <TeamCard
                             img={anushka}
                             alt="Anushka Singh"
                             name="Anushka Singh"
-                            insta="https://www.instagram.com/_anushka_singh_0_7/"
+                            insta="//www.linkedin.com/in/anushka-singh-b5444019b/"
                         />
                         <TeamCard
                             img={nandini}
                             alt="Nandini Singh"
                             name="Nandini Singh"
-                            insta="https://www.instagram.com/nandini0842/"
+                            insta="//www.linkedin.com/in/nandini-singh-a843721b0/"
                         />
                         <TeamCard
                             img={ravi}
                             alt="Ravi Srivastava"
                             name="Ravi Srivastava"
-                            insta="https://www.instagram.com/ravi_srivastava123/"
+                            insta="/"
                         />
                         <TeamCard
                             img={ananya}
                             alt="Ananya Sood"
                             name="Ananya Sood"
-                            insta="https://www.instagram.com/ananya.sood_/"
+                            insta="//www.linkedin.com/in/ananya-sood-6500921b8"
                         />
                         <TeamCard
                             img={shaan}
                             alt="Shaan Srivastava "
                             name="Shaan Srivastava"
-                            insta="https://www.instagram.com/rated_r754/"
+                            insta="//www.linkedin.com/in/shaan-srivastava-857315192/"
                         />
                         <TeamCard
                             img={harshit}
                             alt="Harshit Singh"
                             name="Harshit Singh"
-                            insta="https://www.instagram.com/_harshit_73/"
+                            insta="//www.linkedin.com/in/harshit-singh-9a37721a6"
                         />
                         <TeamCard
                             img={archit}
                             alt="Archit Dogra"
                             name="Archit Dogra"
-                            insta=""
+                            insta="//www.linkedin.com/in/archit-dogra-b85a13196"
                         />
                         <TeamCard
                             img={adityas}
                             alt="Aditya Saxena"
                             name="Aditya Saxena"
-                            insta="https://www.instagram.com/saxenaaditya12/"
+                            insta="https://www.linkedin.com/in/saxenaaditya12"
                         />
                         <TeamCard
                             img={akshat}
                             alt="Akshat"
                             name="Akshat"
-                            insta="https://www.instagram.com/_akshat_akd/"
+                            insta="://www.linkedin.com/in/akshat-005830193"
                         />
                         <TeamCard
                             img={raven}
                             alt="Raven Mehta"
                             name="Raven Mehta"
-                            insta="https://www.instagram.com/xll_raven_mehta_llx/"
+                            insta="https//www.linkedin.com/in/raven-mehta-353092190"
                         />
 
                         <TeamCard
                             img={ritika}
                             alt="Ritika Tiwari"
                             name="Ritika Tiwari"
-                            insta="https://www.instagram.com/_ritika_tiwari/"
+                            insta="//www.linkedin.com/in/ritika-tiwari-380548190/"
                         />
                     </div>
                     <div className="web-team">Web Team</div>
@@ -187,7 +198,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={hridhima}
@@ -296,7 +307,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={isha}
@@ -390,7 +401,7 @@ export default function Team() {
                             img={anny}
                             alt="Ananya Dhangar "
                             name="Ananya Dhangar "
-                            insta=""
+                            insta="//www.linkedin.com/in/ananya-dhangar-826465220"
                         />
                         <TeamCard
                             img={vipul}
@@ -492,7 +503,7 @@ export default function Team() {
                             img={anny}
                             alt="Ananya Dhangar "
                             name="Ananya Dhangar "
-                            insta=""
+                            insta="//www.linkedin.com/in/ananya-dhangar-826465220"
                         />
                         <TeamCard
                             img={vipul}
@@ -593,7 +604,7 @@ export default function Team() {
                             img={gunjan}
                             alt="Gunjan Verma"
                             name="Gunjan Verma"
-                            insta="//www.instagram.com/gunjanxv/"
+                            insta="//www.linkedin.com/in/gunjan-verma-8671211ba/"
                         />
                         <TeamCard
                             img={gurleen}

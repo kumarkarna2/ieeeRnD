@@ -1,3 +1,6 @@
+*{
+    margin-top: 0;
+}
 .team-page {
     display: flex;
     flex-direction: column;

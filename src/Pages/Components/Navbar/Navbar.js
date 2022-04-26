@@ -6,21 +6,21 @@ import {animateScroll as scroll} from 'react-scroll';
 import {Link as LNK} from 'react-scroll';
 
 
-import {
-  Button,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  Collapse,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from "reactstrap";
+// import {
+//   Button,
+//   Navbar,
+//   NavbarBrand,
+//   NavbarToggler,
+//   Collapse,
+//   Nav,
+//   NavItem,
+//   NavLink,
+//   UncontrolledDropdown,
+//   DropdownToggle,
+//   DropdownMenu,
+//   DropdownItem,
+//   NavbarText,
+// } from "reactstrap";
 
 export default function Navibar() {
   function updatemenu() {
