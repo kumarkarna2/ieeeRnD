@@ -13,7 +13,12 @@ export default function Event3() {
         <EventPageCard
         className="event-desc-card"
           img={vcl}
-          desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting."
+          desc="Virtual Cricket League is a gamesimulation of the real - life
+          Cricket Scenario , designed especially for the people to
+          enjoy the best experience of this sport by participating in a
+          heated auction. VCL provides a competitive experience and a platform to showcase your cricket knowledge by putting your best of the experience and vital learnings of this game.
+          So, get ready with your poker faces and bag some of the most famous players of all time in the game, including Virat Kohli, MS Dhoni, Jaspreet Bumrah, Rohit Sharma, Hardik Pandya, and many more excellent 
+          players in the auction. Form up your teams, strategies you play, and lineup to dominate and be the champion of this virtual game."
           reglink=""
         />
       </div>
