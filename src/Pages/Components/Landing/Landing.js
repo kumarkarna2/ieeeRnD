@@ -11,7 +11,7 @@ export default function Landing() {
       </div>
       <div className="c-timer">
         <CountdownTimer 
-          countdownTimestampMs={1651253400000}
+          countdownTimestampMs={1651233600000}
         />
       </div>
       <div class="area">
