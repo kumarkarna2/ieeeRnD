@@ -31,10 +31,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .contact {
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
+    .contact{
+        
         width: auto;
     }
 }

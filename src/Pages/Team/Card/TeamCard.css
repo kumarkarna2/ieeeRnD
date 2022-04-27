@@ -21,9 +21,9 @@
     height: 255px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    object-fit: cover;/* working */
-    object-position: center;
-    background-size: cover;
+    object-fit: cover;
+    /* object-position: center; */
+    /* background-size: cover; */
 }
 .team-member-details {
     display: flex;

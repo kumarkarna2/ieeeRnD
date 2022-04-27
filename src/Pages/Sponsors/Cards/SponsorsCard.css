@@ -16,7 +16,8 @@
 .sponsors-image img {
     width: 14rem;
     height: 14rem;
-    border-radius: 1rem;
+    border-radius: 10px;
+    object-fit:scale-down;
 }
 .sponsor-name {
     font-size: 2rem;
