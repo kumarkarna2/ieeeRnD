@@ -73,3 +73,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .reg-link:hover{
     color: white;
 }
+@media only screen and (max-width:600px) {
+    .whioleeventcard{
+        width:90%;
+        padding: 1rem;
+        height: auto;
+    }
+    .event-photo{
+        margin-top: 2rem;
+        width:auto;
+        height: auto;
+    }
+    .event-image{
+        width:12rem;
+    }
+    .event-description{
+        font-size: .99rem;;
+    }
+}

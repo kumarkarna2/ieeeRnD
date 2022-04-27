@@ -3,6 +3,7 @@ import "./EventPages.css"
 import Navibar from "../Components/Navbar/Navbar";
 import EventPageCard from "./EventPageCard/EventPageCard";
 import velocity from "./Images/velocity.jpeg";
+import Footer1 from '../Components/Footer1/Footer1';
 
 export default function Event5() {
   return (
@@ -21,6 +22,7 @@ export default function Event5() {
           reglink=""
         />
       </div>
+      <Footer1/>
     </div>
   )
 }

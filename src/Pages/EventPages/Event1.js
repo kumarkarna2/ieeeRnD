@@ -3,6 +3,7 @@ import Navibar from "../Components/Navbar/Navbar";
 import EventPageCard from "./EventPageCard/EventPageCard";
 import React from "react";
 import hackathon from "./Images/hackathon.jpeg";
+import Footer1 from "../Components/Footer1/Footer1";
 
 export default function Event1() {
   return (
@@ -20,11 +21,11 @@ export default function Event1() {
           Each team will be given 4 minutes to present their idea/ppt and the working model in front of the
           judges during final evaluation.
           Any intellectual property developed during the hackathon will belong to the team that developed
-          it.
-          "
+          it."
           reglink=""
         />
       </div>
+      <Footer1/>
     </div>
   );
 }

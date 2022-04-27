@@ -13,7 +13,6 @@ import Event5 from "./Pages/EventPages/Event5";
 import Event4 from "./Pages/EventPages/Event4";
 import Event3 from "./Pages/EventPages/Event3";
 
-
 function App() {
   return (
     <div className="App">

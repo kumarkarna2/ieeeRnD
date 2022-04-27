@@ -3,6 +3,7 @@ import "./EventPages.css";
 import Navibar from "../Components/Navbar/Navbar";
 import EventPageCard from "./EventPageCard/EventPageCard";
 import spinoweb from "./Images/spinoweb.jpeg";
+import Footer1 from "../Components/Footer1/Footer1";
 
 export default function Event4() {
   return (
@@ -29,6 +30,7 @@ have to design a webpage based on that."
           reglink=""
         />
       </div>
+      <Footer1/>
     </div>
   );
 }
