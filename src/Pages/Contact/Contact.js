@@ -10,6 +10,7 @@ export default function Contact() {
             <div className="contact-us-section">
                 <div className="contact-us-heading">Contact Us</div>
                 <iframe
+                    className="contact"
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeRxqTOSP-c1GkQJzmdO7LYbsMkCekrtqLn03184NDe7EQ9pQ/viewform?embedded=true"
                     width="640"
                     height="979"

@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer1.css";
 import logo from "./R&D Logo Black.png";
 import ieee from "./IEEE-blue.png";
-import sight from "./sight.png";
+import sight from "./sight1.png";
 import wie_Logo from "./wiecolored.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
