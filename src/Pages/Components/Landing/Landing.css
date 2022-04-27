@@ -8,10 +8,14 @@
     flex-direction: column;
     background: radial-gradient(
         circle,
-        rgba(71, 180, 180, 1) 0%,
+        /* rgba(71, 180, 180, 1) 0%,
         rgba(17, 100, 102, 1) 51%,
-        rgba(4, 32, 38, 1) 100%
+        rgba(4, 32, 38, 1) 100% */
+        #5648bf 0%,
+        #9e579d 51%,
+        /* #6C5FA7 100% */
     );
+  
 }
 .c-timer {
     margin-top: 3.5rem;

@@ -2,7 +2,7 @@
     z-index: 550;
     position: sticky;
     top: 0;
-    background: linear-gradient(90deg, rgba(17, 100, 102, 1) 0%, rgba(144, 221, 255, 1) 100%);
+    background: linear-gradient(90deg,  rgb(119, 195, 228) 0%,#7156D0 100%);
 }
 
 .header.active {
