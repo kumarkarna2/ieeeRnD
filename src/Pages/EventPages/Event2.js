@@ -4,6 +4,7 @@ import Navibar from "../Components/Navbar/Navbar";
 import EventPageCard from "./EventPageCard/EventPageCard";
 
 import squidgames from "./Images/squidgames.jpeg";
+import Footer1 from "../Components/Footer1/Footer1";
 
 export default function Event2() {
   return (
@@ -25,6 +26,7 @@ export default function Event2() {
           reglink=""
         />
       </div>
+      <Footer1/>
     </div>
   );
 }

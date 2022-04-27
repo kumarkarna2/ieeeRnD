@@ -3,6 +3,7 @@ import "./EventPages.css";
 import Navibar from "../Components/Navbar/Navbar";
 import EventPageCard from "./EventPageCard/EventPageCard";
 import deroidexpo from "./Images/deroidexpo.jpeg";
+import Footer1 from '../Components/Footer1/Footer1';
 
 
 export default function Event7() {
@@ -19,6 +20,7 @@ export default function Event7() {
           reglink=""
         />
       </div>
+      <Footer1/>
     </div>
   )
 }
